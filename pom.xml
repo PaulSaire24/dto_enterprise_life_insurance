@@ -13,12 +13,34 @@
 	<packaging>bundle</packaging>
 	<description>Deployment unit dto_enterprise_life_insurance of uuaa rbvd</description>
 	<properties>
+		<source.path>/src/main/java/com/bbva/rbvd/dto/enterpriseinsurance</source.path>
+		<sonar.coverage.exclusions>
+			${source.path}/commons/**.java,
+			${source.path}/commons/dto/**.java,
+			${source.path}/commons/rimac/**.java,
+			${source.path}/createquotation/**.java,
+			${source.path}/createquotation/dao/**.java,
+			${source.path}/createquotation/dto/**.java,
+			${source.path}/createquotation/rimac/**.java,
+			${source.path}/modifyquotation/**.java,
+			${source.path}/modifyquotation/dao/**.java,
+			${source.path}/modifyquotation/dto/**.java,
+			${source.path}/modifyquotation/rimac/**.java
+		</sonar.coverage.exclusions>
 		<osgi.version.manifest>0.0</osgi.version.manifest>
 	</properties>
 	<dependencies>
 		<dependency>
 			<groupId>org.apache.commons</groupId>
 			<artifactId>commons-lang3</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.codehaus.jackson</groupId>
+			<artifactId>jackson-core-asl</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.codehaus.jackson</groupId>
+			<artifactId>jackson-mapper-asl</artifactId>
 		</dependency>
 	</dependencies>
 	<build>
