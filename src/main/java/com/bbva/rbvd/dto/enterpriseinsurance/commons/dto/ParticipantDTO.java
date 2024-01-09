@@ -14,7 +14,7 @@ public class ParticipantDTO implements Serializable {
 
     private IdentityDocumentDTO identityDocument;
 
-    private ParticipantTypeDTO participantType;
+    private DescriptionDTO participantType;
 
 
     public String getFirstName() {
@@ -49,11 +49,11 @@ public class ParticipantDTO implements Serializable {
         this.identityDocument = identityDocument;
     }
 
-    public ParticipantTypeDTO getParticipantType() {
+    public DescriptionDTO getParticipantType() {
         return participantType;
     }
 
-    public void setParticipantType(ParticipantTypeDTO participantType) {
+    public void setParticipantType(DescriptionDTO participantType) {
         this.participantType = participantType;
     }
 

@@ -7,8 +7,8 @@ public class PlanDTO extends  CommonFieldsDTO{
     private AmountDTO totalInstallment;
     private List<InstallmentPlansDTO> installmentPlans;
     private List<CoverageDTO> coverages;
-    private List<ExclusionsDTO> exclusions;
-    private List<BenefitsDTO> benefits;
+    private List<DescriptionDTO> exclusions;
+    private List<DescriptionDTO> benefits;
 
 
     public AmountDTO getTotalInstallment() {
@@ -35,23 +35,21 @@ public class PlanDTO extends  CommonFieldsDTO{
         this.coverages = coverages;
     }
 
-    public List<ExclusionsDTO> getExclusions() {
+    public List<DescriptionDTO> getExclusions() {
         return exclusions;
     }
 
-    public void setExclusions(List<ExclusionsDTO> exclusions) {
+    public void setExclusions(List<DescriptionDTO> exclusions) {
         this.exclusions = exclusions;
     }
 
-    public List<BenefitsDTO> getBenefits() {
+    public List<DescriptionDTO> getBenefits() {
         return benefits;
     }
 
-    public void setBenefits(List<BenefitsDTO> benefits) {
+    public void setBenefits(List<DescriptionDTO> benefits) {
         this.benefits = benefits;
     }
-
-
 
     @Override
     public String toString() {

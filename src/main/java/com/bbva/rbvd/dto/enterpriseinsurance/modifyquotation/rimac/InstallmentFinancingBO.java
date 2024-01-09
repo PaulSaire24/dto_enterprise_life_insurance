@@ -1,7 +1,10 @@
 package com.bbva.rbvd.dto.enterpriseinsurance.modifyquotation.rimac;
 
+import org.codehaus.jackson.annotate.JsonIgnoreProperties;
+
 import java.math.BigDecimal;
 
+@JsonIgnoreProperties(ignoreUnknown = true)
 public class InstallmentFinancingBO {
 
     private Long cuota;

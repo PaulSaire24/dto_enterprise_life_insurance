@@ -6,14 +6,14 @@ public class IdentityDocumentDTO implements Serializable {
 
     private static final long serialVersionUID = 1L;
 
-    private DocumentTypeDTO documentType;
+    private DescriptionDTO documentType;
     private String documentNumber;
 
-    public DocumentTypeDTO getDocumentType() {
+    public DescriptionDTO getDocumentType() {
         return documentType;
     }
 
-    public void setDocumentType(DocumentTypeDTO documentType) {
+    public void setDocumentType(DescriptionDTO documentType) {
         this.documentType = documentType;
     }
 
@@ -25,7 +25,7 @@ public class IdentityDocumentDTO implements Serializable {
         this.documentNumber = documentNumber;
     }
 
-    public IdentityDocumentDTO(DocumentTypeDTO documentType, String documentNumber) {
+    public IdentityDocumentDTO(DescriptionDTO documentType, String documentNumber) {
         this.documentType = documentType;
         this.documentNumber = documentNumber;
     }

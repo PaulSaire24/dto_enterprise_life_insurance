@@ -1,13 +1,13 @@
 package com.bbva.rbvd.dto.enterpriseinsurance.commons.dto;
 
 public class CoverageDTO extends DescriptionDTO {
-    private CoverageTypeDTO coverageType;
+    private DescriptionDTO coverageType;
 
-    public CoverageTypeDTO getCoverageType() {
+    public DescriptionDTO getCoverageType() {
         return coverageType;
     }
 
-    public void setCoverageType(CoverageTypeDTO coverageType) {
+    public void setCoverageType(DescriptionDTO coverageType) {
         this.coverageType = coverageType;
     }
 

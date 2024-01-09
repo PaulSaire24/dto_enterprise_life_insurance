@@ -1,5 +1,8 @@
 package com.bbva.rbvd.dto.enterpriseinsurance.modifyquotation.rimac;
 
+import org.codehaus.jackson.annotate.JsonIgnoreProperties;
+
+@JsonIgnoreProperties(ignoreUnknown = true)
 public class ParticularDataBO {
 
     private String etiqueta;

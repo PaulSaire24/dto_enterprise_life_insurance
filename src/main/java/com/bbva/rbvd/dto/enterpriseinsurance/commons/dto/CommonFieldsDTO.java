@@ -16,7 +16,7 @@ public class CommonFieldsDTO implements Serializable {
 
     private String quotationId;
 
-    private PeriodDTO period;
+    private DescriptionDTO period;
     private Boolean isSelected;
     private Boolean isRecommended;
 
@@ -68,11 +68,11 @@ public class CommonFieldsDTO implements Serializable {
         this.quotationId = quotationId;
     }
 
-    public PeriodDTO getPeriod() {
+    public DescriptionDTO getPeriod() {
         return period;
     }
 
-    public void setPeriod(PeriodDTO period) {
+    public void setPeriod(DescriptionDTO period) {
         this.period = period;
     }
 
