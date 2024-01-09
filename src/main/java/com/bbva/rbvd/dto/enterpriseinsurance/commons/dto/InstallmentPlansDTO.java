@@ -1,4 +1,4 @@
-package com.bbva.rbvd.dto.enterpriseinsurance.commons;
+package com.bbva.rbvd.dto.enterpriseinsurance.commons.dto;
 
 public class InstallmentPlansDTO extends CommonFieldsDTO {
     private Long paymentsTotalNumber;

@@ -1,12 +1,12 @@
-package com.bbva.rbvd.dto.enterpriseinsurance.commons;
+package com.bbva.rbvd.dto.enterpriseinsurance.commons.dto;
 
-public class CoverageTypeDTO extends CommonFieldsDTO{
-
+public class StatusDTO extends CommonFieldsDTO {
     @Override
     public String toString() {
-        return "CoverageTypeDTO{" +
+        return "StatusDTO{" +
                 "id='" + this.getId()+ + '\''+
                 ", name='" + this.getName()+ '\''+
                 "}";
     }
+
 }

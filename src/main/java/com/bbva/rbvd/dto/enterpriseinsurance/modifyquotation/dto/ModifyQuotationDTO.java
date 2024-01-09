@@ -1,11 +1,11 @@
 package com.bbva.rbvd.dto.enterpriseinsurance.modifyquotation.dto;
 
-import com.bbva.rbvd.dto.enterpriseinsurance.commons.*;
+import com.bbva.rbvd.dto.enterpriseinsurance.commons.dto.*;
 
 import java.util.Date;
 import java.util.List;
 
-public class ModifyQuotationDTO extends CommonFieldsDTO     {
+public class ModifyQuotationDTO extends CommonFieldsDTO {
 
     private Date quotationDate;
     private EmployeesDTO employees;

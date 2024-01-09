@@ -1,11 +1,12 @@
-package com.bbva.rbvd.dto.enterpriseinsurance.commons;
+package com.bbva.rbvd.dto.enterpriseinsurance.commons.dto;
 
-public class PeriodDTO extends  CommonFieldsDTO{
+public class ParticipantTypeDTO extends CommonFieldsDTO{
     @Override
     public String toString() {
-        return "PeriodDTO{" +
+        return "ParticipantTypeDTO{" +
                 "id='" + this.getId()+ + '\''+
                 ", name='" + this.getName()+ '\''+
                 "}";
     }
+
 }

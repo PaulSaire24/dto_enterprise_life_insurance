@@ -1,6 +1,4 @@
-package com.bbva.rbvd.dto.enterpriseinsurance.commons;
-
-import java.util.Date;
+package com.bbva.rbvd.dto.enterpriseinsurance.commons.dto;
 
 public class IdentityDocumentDTO {
 
