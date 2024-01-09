@@ -1,6 +1,6 @@
 package com.bbva.rbvd.dto.enterpriseinsurance.commons.dto;
 
-public class CoverageTypeDTO extends CommonFieldsDTO{
+public class CoverageTypeDTO extends DescriptionDTO{
 
     @Override
     public String toString() {

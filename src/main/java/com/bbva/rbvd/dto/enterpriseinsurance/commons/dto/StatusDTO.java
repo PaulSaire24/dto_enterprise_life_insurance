@@ -1,6 +1,6 @@
 package com.bbva.rbvd.dto.enterpriseinsurance.commons.dto;
 
-public class StatusDTO extends CommonFieldsDTO {
+public class StatusDTO extends DescriptionDTO {
     @Override
     public String toString() {
         return "StatusDTO{" +

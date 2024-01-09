@@ -1,6 +1,6 @@
 package com.bbva.rbvd.dto.enterpriseinsurance.commons.dto;
 
-public class BusinessAgentDTO extends CommonFieldsDTO {
+public class BusinessAgentDTO extends DescriptionDTO {
     @Override
     public String toString() {
         return "BusinessAgentDTO{" +

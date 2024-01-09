@@ -1,6 +1,7 @@
 package com.bbva.rbvd.dto.enterpriseinsurance.commons.dto;
 
-public class DocumentTypeDTO extends CommonFieldsDTO {
+public class DocumentTypeDTO extends DescriptionDTO {
+
     @Override
     public String toString() {
         return "DocumentTypeDTO{" +

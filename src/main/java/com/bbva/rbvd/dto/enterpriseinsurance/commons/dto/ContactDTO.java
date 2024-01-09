@@ -1,6 +1,12 @@
 package com.bbva.rbvd.dto.enterpriseinsurance.commons.dto;
 
-public class ContactDTO extends ContactDetailsDTO{
+import java.io.Serializable;
+
+public class ContactDTO implements Serializable {
+
+    private static final long serialVersionUID = 1L;
+
+
     private String contactDetailType;
     private String number;
     private String address;

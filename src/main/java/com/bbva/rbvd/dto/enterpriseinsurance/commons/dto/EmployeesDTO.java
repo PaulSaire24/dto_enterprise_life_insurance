@@ -1,11 +1,17 @@
 package com.bbva.rbvd.dto.enterpriseinsurance.commons.dto;
 
-public class EmployeesDTO {
+import java.io.Serializable;
+
+public class EmployeesDTO implements Serializable {
+
+    private static final long serialVersionUID = 1L;
+
     private Boolean areMajorityAge;
 
-    private Integer employeesNumber;
+    private Long employeesNumber;
 
-    private MonthlyPayrollAmountDTO monthlyPayrollAmount;
+    private AmountDTO monthlyPayrollAmount;
+
 
     public Boolean getAreMajorityAge() {
         return areMajorityAge;
@@ -15,28 +21,29 @@ public class EmployeesDTO {
         this.areMajorityAge = areMajorityAge;
     }
 
-    public Integer getEmloyeesNumber() {
+    public Long getEmployeesNumber() {
         return employeesNumber;
     }
 
-    public void setEmloyeesNumber(Integer emloyeesNumber) {
-        this.employeesNumber = emloyeesNumber;
+    public void setEmployeesNumber(Long employeesNumber) {
+        this.employeesNumber = employeesNumber;
     }
 
-    public MonthlyPayrollAmountDTO getMonthlyPayrollAmount() {
+    public AmountDTO getMonthlyPayrollAmount() {
         return monthlyPayrollAmount;
     }
 
-    public void setMonthlyPayrollAmount(MonthlyPayrollAmountDTO monthlyPayrollAmount) {
+    public void setMonthlyPayrollAmount(AmountDTO monthlyPayrollAmount) {
         this.monthlyPayrollAmount = monthlyPayrollAmount;
     }
 
     @Override
     public String toString() {
-        return "EmployeesDTO{" +
-                "areMajorityAge=" + areMajorityAge +
-                ", employeesNumber=" + employeesNumber +
-                ", monthlyPayrollAmount=" + monthlyPayrollAmount +
-                '}';
+        final StringBuilder sb = new StringBuilder("EmployeesDTO{");
+        sb.append("areMajorityAge=").append(areMajorityAge);
+        sb.append(", employeesNumber=").append(employeesNumber);
+        sb.append(", monthlyPayrollAmount=").append(monthlyPayrollAmount);
+        sb.append('}');
+        return sb.toString();
     }
 }

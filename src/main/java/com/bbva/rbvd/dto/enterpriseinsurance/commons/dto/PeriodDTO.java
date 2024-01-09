@@ -1,6 +1,7 @@
 package com.bbva.rbvd.dto.enterpriseinsurance.commons.dto;
 
-public class PeriodDTO extends  CommonFieldsDTO{
+public class PeriodDTO extends  DescriptionDTO{
+
     @Override
     public String toString() {
         return "PeriodDTO{" +

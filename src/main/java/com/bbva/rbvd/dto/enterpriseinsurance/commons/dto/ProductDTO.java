@@ -2,7 +2,7 @@ package com.bbva.rbvd.dto.enterpriseinsurance.commons.dto;
 
 import java.util.List;
 
-public class ProductDTO extends CommonFieldsDTO{
+public class ProductDTO extends DescriptionDTO{
     private List<PlanDTO> plans;
 
     public List<PlanDTO> getPlans() { return plans; }

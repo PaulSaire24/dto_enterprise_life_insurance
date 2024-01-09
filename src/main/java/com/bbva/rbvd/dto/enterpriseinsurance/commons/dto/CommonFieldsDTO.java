@@ -1,8 +1,11 @@
 package com.bbva.rbvd.dto.enterpriseinsurance.commons.dto;
 
+import java.io.Serializable;
 import java.math.BigDecimal;
 
-public class CommonFieldsDTO {
+public class CommonFieldsDTO implements Serializable {
+
+    private static final long serialVersionUID = 1L;
 
     private String description;
     private BigDecimal amount;
@@ -14,6 +17,8 @@ public class CommonFieldsDTO {
     private String quotationId;
 
     private PeriodDTO period;
+    private Boolean isSelected;
+    private Boolean isRecommended;
 
     public String getId() {
         return id;
@@ -69,5 +74,21 @@ public class CommonFieldsDTO {
 
     public void setPeriod(PeriodDTO period) {
         this.period = period;
+    }
+
+    public Boolean getSelected() {
+        return isSelected;
+    }
+
+    public void setSelected(Boolean selected) {
+        isSelected = selected;
+    }
+
+    public Boolean getRecommended() {
+        return isRecommended;
+    }
+
+    public void setRecommended(Boolean recommended) {
+        isRecommended = recommended;
     }
 }

@@ -3,35 +3,19 @@ package com.bbva.rbvd.dto.enterpriseinsurance.commons.dto;
 import java.util.List;
 
 public class PlanDTO extends  CommonFieldsDTO{
-    private Boolean isSelected;
-    private Boolean isRecommended;
-    private TotalInstallmentDTO totalInstallment;
+
+    private AmountDTO totalInstallment;
     private List<InstallmentPlansDTO> installmentPlans;
     private List<CoverageDTO> coverages;
     private List<ExclusionsDTO> exclusions;
     private List<BenefitsDTO> benefits;
 
-    public Boolean getSelected() {
-        return isSelected;
-    }
 
-    public void setSelected(Boolean selected) {
-        isSelected = selected;
-    }
-
-    public Boolean getRecommended() {
-        return isRecommended;
-    }
-
-    public void setRecommended(Boolean recommended) {
-        isRecommended = recommended;
-    }
-
-    public TotalInstallmentDTO getTotalInstallment() {
+    public AmountDTO getTotalInstallment() {
         return totalInstallment;
     }
 
-    public void setTotalInstallment(TotalInstallmentDTO totalInstallment) {
+    public void setTotalInstallment(AmountDTO totalInstallment) {
         this.totalInstallment = totalInstallment;
     }
 
@@ -67,17 +51,15 @@ public class PlanDTO extends  CommonFieldsDTO{
         this.benefits = benefits;
     }
 
-    public PlanDTO() {
-        this.isRecommended = false;
-    }
+
 
     @Override
     public String toString() {
         return "PlanDTO{" +
                 "id='" + this.getId()+ + '\''+
                 ", name='" + this.getName()+ '\''+
-                ", isSelected=" + isSelected +
-                ", isRecommended=" + isRecommended +
+                ", isSelected=" + getSelected() +
+                ", isRecommended=" + getRecommended() +
                 ", totalInstallment=" + totalInstallment +
                 ", installmentPlans=" + installmentPlans +
                 ", coverages=" + coverages +

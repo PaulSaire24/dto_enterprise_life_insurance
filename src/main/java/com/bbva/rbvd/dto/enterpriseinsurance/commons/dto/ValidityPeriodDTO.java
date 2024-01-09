@@ -1,23 +1,30 @@
 package com.bbva.rbvd.dto.enterpriseinsurance.commons.dto;
 
-import java.util.Date;
+import java.io.Serializable;
+import java.time.LocalDate;
 
-public class ValidityPeriodDTO {
-    private Date startDate;
-    private Date endDate;
-    public Date getStartDate() {
+public class ValidityPeriodDTO implements Serializable {
+
+    private static final long serialVersionUID = 1L;
+
+
+    private LocalDate startDate;
+    private LocalDate endDate;
+
+
+    public LocalDate getStartDate() {
         return startDate;
     }
 
-    public void setStartDate(Date startDate) {
+    public void setStartDate(LocalDate startDate) {
         this.startDate = startDate;
     }
 
-    public Date getEndDate() {
+    public LocalDate getEndDate() {
         return endDate;
     }
 
-    public void setEndDate(Date endDate) {
+    public void setEndDate(LocalDate endDate) {
         this.endDate = endDate;
     }
 

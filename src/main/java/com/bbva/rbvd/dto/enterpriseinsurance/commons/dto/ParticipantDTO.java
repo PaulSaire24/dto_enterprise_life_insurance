@@ -1,7 +1,13 @@
 package com.bbva.rbvd.dto.enterpriseinsurance.commons.dto;
 
-public class ParticipantDTO extends CommonFieldsDTO{
+import java.io.Serializable;
 
+public class ParticipantDTO implements Serializable {
+
+    private static final long serialVersionUID = 1L;
+
+
+    private String id;
     private String firstName;
     private String lastName;
     private String secondLastName;
@@ -51,10 +57,18 @@ public class ParticipantDTO extends CommonFieldsDTO{
         this.participantType = participantType;
     }
 
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
+    }
+
     @Override
     public String toString() {
         return "ParticipantDTO{" +
-                "id='" + this.getId() + '\'' +
+                "id='" + id + '\'' +
                 ", firstName='" + firstName + '\'' +
                 ", lastName='" + lastName + '\'' +
                 ", secondLastName='" + secondLastName + '\'' +

@@ -1,8 +1,9 @@
 package com.bbva.rbvd.dto.enterpriseinsurance.commons.dto;
 
 public class InstallmentPlansDTO extends CommonFieldsDTO {
+
     private Long paymentsTotalNumber;
-    private PaymentAmountDTO paymentAmount;
+    private AmountDTO paymentAmount;
 
     public Long getPaymentsTotalNumber() {
         return paymentsTotalNumber;
@@ -12,11 +13,11 @@ public class InstallmentPlansDTO extends CommonFieldsDTO {
         this.paymentsTotalNumber = paymentsTotalNumber;
     }
 
-    public PaymentAmountDTO getPaymentAmount() {
+    public AmountDTO getPaymentAmount() {
         return paymentAmount;
     }
 
-    public void setPaymentAmount(PaymentAmountDTO paymentAmount) {
+    public void setPaymentAmount(AmountDTO paymentAmount) {
         this.paymentAmount = paymentAmount;
     }
 

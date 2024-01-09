@@ -1,6 +1,7 @@
 package com.bbva.rbvd.dto.enterpriseinsurance.commons.dto;
 
-public class BenefitsDTO extends CommonFieldsDTO{
+public class BenefitsDTO extends DescriptionDTO{
+
     @Override
     public String toString() {
         return "BenefitsDTO{" +
@@ -9,7 +10,6 @@ public class BenefitsDTO extends CommonFieldsDTO{
                 ", description='" + this.getDescription()+ '\''+
                 "}";
     }
-
 
 
 }

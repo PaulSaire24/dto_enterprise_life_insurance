@@ -1,6 +1,10 @@
 package com.bbva.rbvd.dto.enterpriseinsurance.commons.dto;
 
-public class ContactDetailsDTO extends CommonFieldsDTO {
+import java.io.Serializable;
+
+public class ContactDetailsDTO implements Serializable {
+    private static final long serialVersionUID = 1L;
+
     private  ContactDTO contact;
 
     public ContactDTO getContact() {
