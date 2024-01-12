@@ -25,7 +25,8 @@
 			${source.path}/modifyquotation/**.java,
 			${source.path}/modifyquotation/dao/**.java,
 			${source.path}/modifyquotation/dto/**.java,
-			${source.path}/modifyquotation/rimac/**.java
+			${source.path}/modifyquotation/rimac/**.java,
+			${source.path}/mock/**.java
 		</sonar.coverage.exclusions>
 		<osgi.version.manifest>0.0</osgi.version.manifest>
 	</properties>
