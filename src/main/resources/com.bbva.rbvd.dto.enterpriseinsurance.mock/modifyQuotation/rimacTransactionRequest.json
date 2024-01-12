@@ -1,0 +1,30 @@
+{
+  "quotationId": "842",
+  "employees": {
+    "areMajorityAge": true,
+    "employeesNumber": 30,
+    "monthlyPayrollAmount": {
+      "amount": 20.00,
+      "currency": "PEN"
+    }
+  },
+  "product":{
+      "plans": [
+        {
+          "id": "1234623",
+          "isSelected": true
+        }
+      ]
+  },
+  "contactDetails": [
+      {
+        "contact": {
+          "contactDetailType":  "EMAIL",
+          "address":  "marco.yovera@bbva.com"
+        }
+      }
+  ],
+  "businessAgent":{
+      "id": "P021322"
+  }
+}

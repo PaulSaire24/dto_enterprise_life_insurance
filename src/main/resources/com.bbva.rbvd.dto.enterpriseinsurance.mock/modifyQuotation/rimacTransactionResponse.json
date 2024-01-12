@@ -1,0 +1,104 @@
+{
+  "id": "842",
+  "quotationDate": "2023-01-01",
+  "employees": {
+    "areMajorityAge": true,
+    "employeesNumber": 30,
+    "monthlyPayrollAmount": {
+      "amount": 20.00,
+      "currency": "PEN"
+    }
+  },
+  "product": {
+    "id": "842",
+    "name": "VIDAEMPRESA",
+    "plans": [
+      {
+        "id": "1234623",
+        "name": "plan1",
+        "isSelected": false,
+        "isRecommended": false,
+        "totalInstallment":{
+          "amount": 1000.00,
+          "currency": "PEN"
+        },
+        "installmentPlans":[
+          {
+            "paymentsTotalNumber": 1,
+            "paymentAmount":  {
+              "amount": 100.00,
+              "currency": "PEN"
+            },
+            "period": {
+              "id": "ANNUAL",
+              "name": "Annual period"
+
+            }
+
+
+          }
+        ],
+        "coverages": [
+          {
+            "id": "123",
+            "name": "Coverage 1",
+            "description": "Coverage for life enterprise insurance",
+            "coverageType": {
+              "id": "MAIN",
+              "name": "Coverage Type"
+            }
+          }
+        ],
+        "exclusions":{
+          "id": "123456",
+          "name": "Exclusion 1",
+          "description": "Exclusion for life enterprise insurance"
+        },
+        "benefits":{
+          "id": "123457",
+          "name": "Benefits 1",
+          "description": "Benefits for life enterprise insurance"
+        }
+      }
+    ]
+  },
+  "contactDetails": [
+    {
+      "contact": {
+        "contactDetailType": "EMAIL",
+        "address": "marco.yovera@bbva.com"
+      }
+    }
+  ],
+  "validityPeriod": {
+    "startDate":  "2023-01-02",
+    "endDate": "2023-12-02"
+  },
+  "businessAgent": {
+    "id": "P021322"
+  },
+  "participants":[
+    {
+      "id":"P041360",
+      "firsName": "Marco",
+      "lastName": "Yovera",
+      "secondLastName": "Cortez",
+      "identityDocument":{
+        "documentType": {
+          "id": "DNI",
+          "description": "DNI"
+        },
+        "documentNumber": "73186739"
+      },
+      "participantType":{
+        "id": "123456",
+        "name": "Contract"
+      }
+    }
+  ],
+  "quotationReference": {
+    "id": "2312313",
+    "name": "quotation 2 ref"
+  }
+}
+

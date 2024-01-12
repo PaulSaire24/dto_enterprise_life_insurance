@@ -7,7 +7,7 @@
 		<artifactId>elara-project</artifactId>
 		<version>7.11.8</version>
 	</parent>
-	<groupId>com.bbva.rbvd.dto.enterpriseinsurance</groupId>
+	<groupId>apx</groupId>
 	<artifactId>RBVDC402</artifactId>
 	<version>0.1.0-SNAPSHOT</version>
 	<packaging>bundle</packaging>
