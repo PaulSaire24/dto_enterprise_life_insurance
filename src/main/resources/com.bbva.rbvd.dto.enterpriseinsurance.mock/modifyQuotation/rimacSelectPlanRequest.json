@@ -1,0 +1,28 @@
+{
+  "payload": {
+    "producto": "VIDALEY",
+    "planes": [
+      {
+        "plan": 533611
+      }
+    ],
+    "datos_particulares": [
+      {
+        "etiqueta": "NUMERO_DE_TRABAJADORES",
+        "codigo": "",
+        "valor": "100"
+      },
+      {
+        "etiqueta": "INDICADOR_EDAD_TRABAJADORES",
+        "codigo": "",
+        "valor": "S"
+      },
+      {
+        "etiqueta": "PLANILLA_BRUTA_MENSUAL",
+        "codigo": "",
+        "valor": "25000,00"
+      }
+    ],
+    "codigo_externo": "2414010091841"
+  }
+}
