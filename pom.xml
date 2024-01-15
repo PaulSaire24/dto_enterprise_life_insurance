@@ -19,7 +19,6 @@
 			${source.path}/commons/dto/**.java,
 			${source.path}/commons/rimac/**.java,
 			${source.path}/createquotation/**.java,
-			${source.path}/createquotation/dto/**.java,
 			${source.path}/createquotation/rimac/**.java,
 			${source.path}/modifyquotation/**.java,
 			${source.path}/modifyquotation/dao/**.java,
