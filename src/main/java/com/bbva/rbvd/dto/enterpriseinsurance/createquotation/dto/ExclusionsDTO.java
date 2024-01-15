@@ -1,4 +1,4 @@
-package com.bbva.rbvd.dto.enterpriseinsurance.createQuotation.dto;
+package com.bbva.rbvd.dto.enterpriseinsurance.createquotation.dto;
 
 import java.io.Serializable;
 

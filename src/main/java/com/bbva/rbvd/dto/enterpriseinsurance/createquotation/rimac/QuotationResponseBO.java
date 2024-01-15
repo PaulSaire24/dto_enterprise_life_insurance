@@ -1,4 +1,4 @@
-package com.bbva.rbvd.dto.enterpriseinsurance.createQuotation.rimac;
+package com.bbva.rbvd.dto.enterpriseinsurance.createquotation.rimac;
 
 import com.bbva.rbvd.dto.enterpriseinsurance.commons.rimac.FinancingBO;
 import com.bbva.rbvd.dto.enterpriseinsurance.commons.rimac.ParticularDataBO;
