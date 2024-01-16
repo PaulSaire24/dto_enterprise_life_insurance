@@ -1,5 +1,7 @@
 package com.bbva.rbvd.dto.enterpriseinsurance.modifyquotation.rimac;
 
+import com.bbva.rbvd.dto.enterpriseinsurance.commons.rimac.ParticularDataBO;
+import com.bbva.rbvd.dto.enterpriseinsurance.commons.rimac.PlanBO;
 import org.codehaus.jackson.annotate.JsonIgnoreProperties;
 
 import java.util.List;

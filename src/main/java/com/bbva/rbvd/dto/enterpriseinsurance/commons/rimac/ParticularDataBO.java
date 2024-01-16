@@ -1,4 +1,4 @@
-package com.bbva.rbvd.dto.enterpriseinsurance.modifyquotation.rimac;
+package com.bbva.rbvd.dto.enterpriseinsurance.commons.rimac;
 
 import org.codehaus.jackson.annotate.JsonIgnoreProperties;
 
