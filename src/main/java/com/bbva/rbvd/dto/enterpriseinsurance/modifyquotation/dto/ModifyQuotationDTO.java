@@ -3,11 +3,12 @@ package com.bbva.rbvd.dto.enterpriseinsurance.modifyquotation.dto;
 import com.bbva.rbvd.dto.enterpriseinsurance.commons.dto.*;
 
 import java.time.LocalDate;
+import java.util.Date;
 import java.util.List;
 
 public class ModifyQuotationDTO extends CommonFieldsDTO {
 
-    private LocalDate quotationDate;
+    private Date quotationDate;
     private EmployeesDTO employees;
     private ProductDTO product;
     private List<ContactDetailsDTO> contactDetails;
@@ -17,11 +18,11 @@ public class ModifyQuotationDTO extends CommonFieldsDTO {
     private String quotationReference;
     private DescriptionDTO status;
 
-    public LocalDate getQuotationDate() {
+    public Date getQuotationDate() {
         return quotationDate;
     }
 
-    public void setQuotationDate(LocalDate quotationDate) {
+    public void setQuotationDate(Date quotationDate) {
         this.quotationDate = quotationDate;
     }
 
