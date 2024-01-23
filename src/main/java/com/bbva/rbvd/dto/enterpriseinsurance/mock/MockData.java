@@ -1,6 +1,7 @@
 package com.bbva.rbvd.dto.enterpriseinsurance.mock;
 
 import com.bbva.rbvd.dto.enterpriseinsurance.modifyquotation.dto.ModifyQuotationDTO;
+import com.bbva.rbvd.dto.enterpriseinsurance.modifyquotation.rimac.SelectPlanBO;
 
 import java.io.IOException;
 
@@ -15,18 +16,18 @@ public class MockData {
         return INSTANCE;
     }
 
-    public ModifyQuotationDTO getRimacSelectPlanRequest() throws IOException {
+    public SelectPlanBO getRimacSelectPlanRequest() throws IOException {
         return objectMapperHelper.readValue(
                 Thread.currentThread().getContextClassLoader().getResourceAsStream(
                         "com/bbva/rbvd/dto/enterpriseinsurance/mock/modifyQuotation/rimacSelectPlanRequest.json"),
-                ModifyQuotationDTO.class);
+                SelectPlanBO.class);
     }
 
-    public ModifyQuotationDTO getRimacSelectPlanResponse() throws IOException {
+    public SelectPlanBO getRimacSelectPlanResponse() throws IOException {
         return objectMapperHelper.readValue(
                 Thread.currentThread().getContextClassLoader().getResourceAsStream(
                         "com/bbva/rbvd/dto/enterpriseinsurance/mock/modifyQuotation/rimacSelectPlanResponse.json"),
-                ModifyQuotationDTO.class);
+                SelectPlanBO.class);
     }
 
     public ModifyQuotationDTO getTransactionRequest() throws IOException {

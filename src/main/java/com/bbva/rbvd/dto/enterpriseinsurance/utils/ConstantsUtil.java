@@ -26,6 +26,7 @@ public class ConstantsUtil {
     public static final class QueriesName{
         public static final String QUERY_SELECT_PRODUCT_BY_PRODUCT_TYPE = "PISD.SELECT_PRODUCT_BY_PRODUCT_TYPE";
         public static final String QUERY_COMPANY_MODALITIES_BY_PRODUCT_AND_CHANNEL = "PISD.GET_COMPANY_MODALITIES_BY_PRODUCT_AND_CHANNEL";
+        public static final String QUERY_SIMULATION_BY_COMPANY_ID = "PISD.GET_SIMULATION_BY_COMPANY_SIMULATION_ID";
     }
 
     public static final class HeaderSignatureAWS{
