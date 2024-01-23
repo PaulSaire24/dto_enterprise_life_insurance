@@ -247,6 +247,13 @@ public class InsuranceQuotationModDAO {
         }
 
 
+        public InsuranceQuotationModDAO build() {
+            return insuranceQuotationModDAO;
+        }
+
+
+
+
     }
 
 
