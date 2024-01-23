@@ -8,11 +8,15 @@ public class ConstantsUtil {
         public static final String FIELD_INSRNC_COMPANY_SIMULATION_ID = "INSRNC_COMPANY_SIMULATION_ID";
         public static final String FIELD_INSURANCE_SIMULATION_ID = "INSURANCE_SIMULATION_ID";
 
+        private InsuranceSimulation(){}
+
     }
 
     public static final class InsuranceProduct{
         public static final String FIELD_PRODUCT_SHORT_DESC = "PRODUCT_SHORT_DESC";
         public static final String FIELD_INSURANCE_PRODUCT_TYPE = "INSURANCE_PRODUCT_TYPE";
+
+        private InsuranceProduct(){}
     }
 
     public static final class InsurancePrdModality{
@@ -20,6 +24,8 @@ public class ConstantsUtil {
         public static final String FIELD_INSURANCE_PRODUCT_ID = "INSURANCE_PRODUCT_ID";
         public static final String FIELD_INSURANCE_MODALITY_TYPE = "INSURANCE_MODALITY_TYPE";
         public static final String FIELD_SALE_CHANNEL_ID = "SALE_CHANNEL_ID";
+
+        private InsurancePrdModality(){}
 
     }
 
@@ -31,6 +37,8 @@ public class ConstantsUtil {
         public static final String QUERY_SELECT_PRODUCT_BY_COMPANY_SIMULATION_ID= "PISD.SELECT_PRODUCT_BY_COMPANY_SIMULATION_ID";
         public static final String QUERY_GET_SIMULATION_BY_COMPANY_SIMULATION_ID="PISD.GET_SIMULATION_BY_COMPANY_SIMULATION_ID";
 
+        private QueriesName(){}
+
 
     }
 
@@ -38,6 +46,8 @@ public class ConstantsUtil {
         public static final int ONE = 1;
         public static final int ZERO = 0;
         public static final int NINE = 9;
+
+        private NumberConstants(){}
 
     }
 
@@ -48,17 +58,23 @@ public class ConstantsUtil {
         public static final String DATE_PATTERN = "dd/MM/yyyy";
         public static final String OFFICE_NUMBER = "0814";
 
+        private StringConstants(){}
+
     }
 
     public static final class FinancingPeriodicity{
         public static final String ANUAL = "Anual";
         public static final String MENSUAL = "Mensual";
 
+        private FinancingPeriodicity(){}
+
     }
 
     public static final class ContactDetailtype{
         public static final String MOBILE = "MOBILE";
         public static final String EMAIL = "EMAIL";
+
+        private ContactDetailtype(){}
 
     }
 
@@ -81,6 +97,8 @@ public class ConstantsUtil {
         public static final String CUSTOMER_PHONE_DESC = "CUSTOMER_PHONE_DESC";
         public static final String DATA_TREATMENT_IND_TYPE = "DATA_TREATMENT_IND_TYPE";
 
+        private QuotationModMap(){}
+
     }
 
     public static final class QuotationMap{
@@ -96,6 +114,8 @@ public class ConstantsUtil {
         public static final String SOURCE_BRANCH_ID = "SOURCE_BRANCH_ID";
         public static final String CREATION_USER_ID = "CREATION_USER_ID";
         public static final String USER_AUDIT_ID = "USER_AUDIT_ID";
+
+        private QuotationMap(){}
     }
 
 
@@ -105,15 +125,21 @@ public class ConstantsUtil {
         public static final String X_API_KEY = "x-api-key";
         public static final String TRACEID = "traceId";
 
+        private HeaderSignatureAWS(){}
+
     }
 
     public static final class SelectPlanRimac{
         public static final String RIMAC_QUOTATION = "externalQuotationId";
         public static final String KEY_CONSOLE = "enterprise.quotation.modify";
+
+        private SelectPlanRimac(){}
     }
 
     public static final class Flags{
         public static final String FLAG_CALL_SELECT_PLAN = "FLAG_CALL_SELECT_PLAN";
+
+        private Flags(){}
 
     }
 
