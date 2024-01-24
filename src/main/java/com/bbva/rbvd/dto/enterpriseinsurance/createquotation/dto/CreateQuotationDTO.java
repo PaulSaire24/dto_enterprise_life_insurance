@@ -5,7 +5,7 @@ import com.bbva.rbvd.dto.enterpriseinsurance.commons.dto.*;
 import java.time.LocalDate;
 import java.util.List;
 
-public class companyQuotationDto extends CommonFieldsDTO {
+public class CreateQuotationDTO extends CommonFieldsDTO {
     private String quotationReference;
     private EmployeesDTO employees;
     private LocalDate quotationDate;
