@@ -19,28 +19,28 @@ public class MockData {
     public SelectPlanBO getRimacSelectPlanRequest() throws IOException {
         return objectMapperHelper.readValue(
                 Thread.currentThread().getContextClassLoader().getResourceAsStream(
-                        "com/bbva/rbvd/dto/enterpriseinsurance/mock/modifyQuotation/rimacSelectPlanRequest.json"),
+                        "com.bbva.rbvd.dto.enterpriseinsurance.mock/modifyQuotation/rimacSelectPlanRequestMock.json"),
                 SelectPlanBO.class);
     }
 
     public SelectPlanBO getRimacSelectPlanResponse() throws IOException {
         return objectMapperHelper.readValue(
                 Thread.currentThread().getContextClassLoader().getResourceAsStream(
-                        "com/bbva/rbvd/dto/enterpriseinsurance/mock/modifyQuotation/rimacSelectPlanResponse.json"),
+                        "com.bbva.rbvd.dto.enterpriseinsurance.mock/modifyQuotation/rimacSelectPlanResponseMock.json"),
                 SelectPlanBO.class);
     }
 
-    public ModifyQuotationDTO getTransactionRequest() throws IOException {
+    public ModifyQuotationDTO getModifyQuotationTransactionInput() throws IOException {
         return objectMapperHelper.readValue(
                 Thread.currentThread().getContextClassLoader().getResourceAsStream(
-                        "com/bbva/rbvd/dto/enterpriseinsurance/mock/modifyQuotation/rimacTransactionRequest.json"),
+                        "com.bbva.rbvd.dto.enterpriseinsurance.mock/modifyQuotation/inputModifyquotationTransactionMock.json"),
                 ModifyQuotationDTO.class);
     }
 
-    public ModifyQuotationDTO getTransactionResponse() throws IOException {
+    public ModifyQuotationDTO getModifyQuotationTransactionOutput() throws IOException {
         return objectMapperHelper.readValue(
                 Thread.currentThread().getContextClassLoader().getResourceAsStream(
-                        "com/bbva/rbvd/dto/enterpriseinsurance/mock/modifyQuotation/rimacTransactionResponse.json"),
+                        "com.bbva.rbvd.dto.enterpriseinsurance.mock/modifyQuotation/outputModifyquotationTransactionMock.json"),
                 ModifyQuotationDTO.class);
     }
 }
