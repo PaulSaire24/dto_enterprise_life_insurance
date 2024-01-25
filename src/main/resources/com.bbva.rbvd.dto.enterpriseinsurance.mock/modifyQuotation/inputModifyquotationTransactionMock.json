@@ -2,17 +2,16 @@
   "quotationId": "842",
   "employees": {
     "areMajorityAge": true,
-    "employeesNumber": 30,
+    "employeesNumber": 100,
     "monthlyPayrollAmount": {
-      "amount": 20.00,
+      "amount": 20000.00,
       "currency": "PEN"
     }
   },
   "product":{
       "plans": [
         {
-          "id": "1234623",
-          "isSelected": true
+          "id": "01"
         }
       ]
   },
@@ -25,6 +24,7 @@
       }
   ],
   "businessAgent":{
-      "id": "P021322"
+      "id": "P021322",
+      "name": "Elias Yovera"
   }
 }
