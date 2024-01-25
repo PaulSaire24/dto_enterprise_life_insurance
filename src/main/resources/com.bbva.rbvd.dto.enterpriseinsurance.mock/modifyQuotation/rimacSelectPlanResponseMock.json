@@ -6,14 +6,14 @@
       {
         "fechaCreacion": "2023-01-23",
         "fechaExpiracion": "2023-02-22",
-        "cotizacion": "c2b84fdb-4596-4b63-944c-8bcd057123f8",
+        "cotizacion": "b29042ed-1add-4b49-82ba-0098cdc2e13e",
         "moneda": "PEN",
         "indicadorSeleccionado": "S",
         "tipoDocumento": "L",
         "nroDocumento": "48112801",
         "planes": [
           {
-            "plan": 1234623,
+            "plan": 1,
             "descripcionPlan": "Plan Journey Vida Addons Soles",
             "primaNeta": 577.2,
             "primaBruta": 701.53,
@@ -98,7 +98,7 @@
                 "moneda": "240000",
                 "sumaAsegurada": "N",
                 "porcentajeSeleccionado": "Cobertura principal (incendio todo riesgo)",
-                "observacionCobertura": "...",
+                "observacionCobertura": "Observacion por inciendo forestal",
                 "condicion": "OBL"
               },
               {
@@ -110,7 +110,7 @@
                 "moneda": "300000",
                 "sumaAsegurada": "N",
                 "porcentajeSeleccionado": "Cobertura principal (incendio todo riesgo)",
-                "observacionCobertura": "...",
+                "observacionCobertura": "Observacion por incendio natural",
                 "condicion": "INC"
               },
               {
@@ -126,11 +126,21 @@
                 "condicion": "OPC"
               }
             ],
-            "datosParticulares": [
+            "datos_particulares": [
               {
-                "etiqueta": "TipoRenta",
+                "etiqueta": "NUMERO_DE_TRABAJADORES",
                 "codigo": "",
-                "valor": "Baja"
+                "valor": "100"
+              },
+              {
+                "etiqueta": "INDICADOR_EDAD_TRABAJADORES",
+                "codigo": "",
+                "valor": "S"
+              },
+              {
+                "etiqueta": "PLANILLA_BRUTA_MENSUAL",
+                "codigo": "",
+                "valor": "20000,00"
               }
             ]
           }
