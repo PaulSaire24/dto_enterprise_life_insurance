@@ -1,20 +1,30 @@
 package com.bbva.rbvd.dto.enterpriseinsurance.listquotation.dto;
 
-import com.bbva.rbvd.dto.enterpriseinsurance.commons.dto.CommonFieldsDTO;
 import com.bbva.rbvd.dto.enterpriseinsurance.commons.dto.EmployeesDTO;
 import com.bbva.rbvd.dto.enterpriseinsurance.commons.dto.ProductDTO;
 import com.bbva.rbvd.dto.enterpriseinsurance.commons.dto.ValidityPeriodDTO;
 import com.bbva.rbvd.dto.enterpriseinsurance.commons.dto.DescriptionDTO;
 
+import java.io.Serializable;
 import java.time.LocalDateTime;
 
-public class ListQuotationDTO extends CommonFieldsDTO {
+public class ListQuotationDTO implements Serializable {
+    private static final long serialVersionUID = 1L;
+    private String id;
     private LocalDateTime quotationDate;
     private EmployeesDTO employees;
     private ProductDTO product;
     private ValidityPeriodDTO validityPeriod;
     private DescriptionDTO status;
     private String quotationReference;
+
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
+    }
 
     public LocalDateTime getQuotationDate() {
         return quotationDate;
@@ -66,8 +76,9 @@ public class ListQuotationDTO extends CommonFieldsDTO {
 
     @Override
     public String toString() {
-        return "listQuotationDTO{" +
-                "quotationDate=" + quotationDate +
+        return "ListQuotationDTO{" +
+                "id='" + id + '\'' +
+                ", quotationDate=" + quotationDate +
                 ", employees=" + employees +
                 ", product=" + product +
                 ", validityPeriod=" + validityPeriod +
