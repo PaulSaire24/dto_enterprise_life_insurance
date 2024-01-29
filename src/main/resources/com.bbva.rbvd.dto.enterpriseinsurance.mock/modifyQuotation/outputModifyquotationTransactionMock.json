@@ -1,5 +1,5 @@
 {
-  "id": "842",
+  "id": "b29042ed-1add-4b49-82ba-0098cdc2e13e",
   "quotationDate": "2024-01-01",
   "employees": {
     "areMajorityAge": true,
@@ -14,45 +14,56 @@
     "name": "VIDAEMPRESA",
     "plans": [
       {
-        "id": "01",
-        "name": "plan1",
+        "id": "533611",
+        "name": "plan 1",
+        "isSelected": true,
+        "isRecommended": true,
         "totalInstallment":{
           "amount": 100000.00,
           "currency": "PEN"
         },
         "installmentPlans":[
           {
-            "paymentsTotalNumber": 1,
+            "paymentsTotalNumber": 12,
             "paymentAmount":  {
               "amount": 10000.00,
               "currency": "PEN"
             },
             "period": {
-              "id": "ANNUAL",
-              "name": "Annual period"
+              "id": "ANUAL",
+              "name": "ANNUAL"
             }
           }
         ],
         "coverages": [
           {
-            "id": "1",
-            "name": "Coverage 1",
-            "description": "Coverage for life enterprise insurance",
+            "id": "10920",
+            "name": "Fallecimiento",
+            "description": "Cobertura por fallecimiento",
             "coverageType": {
-              "id": "1",
-              "name": "Por robo total segun el valor referencial"
+              "name": "OBLIGATORIA",
+              "id": "MANDATORY"
+            }
+          },
+          {
+            "id": "10921",
+            "name": "Muerte accidental",
+            "description": "Cobertura por Muerte accidental",
+            "coverageType": {
+              "name": "OBLIGATORIA",
+              "id": "MANDATORY"
             }
           }
         ],
         "exclusions":{
-          "id": "123456",
-          "name": "Exclusion 1",
-          "description": "Exclusion for life enterprise insurance"
+          "id": "10913",
+          "name": "Exclusion Invalidez",
+          "description": "Exclusion ante invalidez total"
         },
         "benefits":{
-          "id": "123457",
-          "name": "Benefits 1",
-          "description": "Benefits for life enterprise insurance"
+          "id": "10914",
+          "name": "Beneficio Educativo",
+          "description": "Beneficio de cursos de seguridad"
         }
       }
     ]
@@ -61,29 +72,30 @@
     {
       "contact": {
         "contactDetailType": "EMAIL",
-        "address": "marco.yovera@bbva.com"
+        "address": "m.yov@gmail.com"
       }
     }
   ],
   "validityPeriod": {
-    "startDate":  "2023-01-02",
-    "endDate": "2023-12-02"
+    "startDate":  "2024-01-01",
+    "endDate": "2024-12-02"
   },
   "businessAgent": {
-    "id": "P021322"
+    "id": "P021322",
+    "name": "Luis Perez"
   },
   "participants":[
     {
-      "id":"P041360",
-      "firsName": "Marco",
-      "lastName": "Yovera",
-      "secondLastName": "Cortez",
+      "id":"DNI",
+      "firsName": "Antonio",
+      "lastName": "Cortez",
+      "secondLastName": "Ortega",
       "identityDocument":{
         "documentType": {
           "id": "DNI",
-          "description": "Document description"
+          "description": "National identifier document"
         },
-        "documentNumber": "73186739"
+        "documentNumber": "722186739"
       },
       "participantType":{
         "id": "01",
@@ -94,8 +106,7 @@
   "quotationReference":"1090",
   "status": {
     "id": "01",
-    "name": "Status name"
+    "name": "Status OK"
   },
   "quotationId":"b29042ed-1add-4b49-82ba-0098cdc2e13e"
 }
-

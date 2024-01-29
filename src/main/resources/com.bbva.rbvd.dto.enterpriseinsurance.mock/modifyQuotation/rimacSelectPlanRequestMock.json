@@ -6,7 +6,7 @@
         "plan": 533611
       }
     ],
-    "datos_particulares": [
+    "datosParticulares": [
       {
         "etiqueta": "NUMERO_DE_TRABAJADORES",
         "codigo": "",
@@ -23,6 +23,6 @@
         "valor": "20000,00"
       }
     ],
-    "codigo_externo": "2414010091841"
+    "codigoExterno": "2414010091841"
   }
 }

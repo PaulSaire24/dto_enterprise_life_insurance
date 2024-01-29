@@ -1,5 +1,5 @@
 {
-  "quotationId": "842",
+  "quotationId": "b29042ed-1add-4b49-82ba-0098cdc2e13e",
   "employees": {
     "areMajorityAge": true,
     "employeesNumber": 100,
@@ -9,22 +9,23 @@
     }
   },
   "product":{
-      "plans": [
-        {
-          "id": "01"
-        }
-      ]
+    "id": "842",
+    "plans": [
+      {
+        "id": "533611",
+        "isSelected": true
+      }
+    ]
   },
   "contactDetails": [
-      {
-        "contact": {
-          "contactDetailType":  "EMAIL",
-          "address":  "marco.yovera@bbva.com"
-        }
+    {
+      "contact": {
+        "contactDetailType":  "EMAIL",
+        "address":  "marco.yovera@bbva.com"
       }
+    }
   ],
   "businessAgent":{
-      "id": "P021322",
-      "name": "Elias Yovera"
+    "id": "P021322"
   }
 }
