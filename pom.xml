@@ -15,19 +15,7 @@
 	<properties>
 		<source.path>/src/main/java/com/bbva/rbvd/dto/enterpriseinsurance</source.path>
 		<sonar.coverage.exclusions>
-			${source.path}/commons/**.java,
-			${source.path}/commons/dto/**.java,
-			${source.path}/commons/rimac/**.java,
-			${source.path}/createquotation/**.java,
-			${source.path}/createquotation/rimac/**.java,
-			${source.path}/createquotation/dao/**.java,
-			${source.path}/createquotation/dto/**.java,
-			${source.path}/modifyquotation/**.java,
-			${source.path}/modifyquotation/dao/**.java,
-			${source.path}/modifyquotation/dto/**.java,
-			${source.path}/modifyquotation/rimac/**.java,
-			${source.path}/utils/**.java,
-			${source.path}/mock/**.java
+			/src/main/java/com/bbva/rbvd/dto/enterpriseinsurance/**/**.java
 		</sonar.coverage.exclusions>
 		<osgi.version.manifest>0.0</osgi.version.manifest>
 	</properties>
