@@ -4,8 +4,8 @@
     "mensaje": "Se realizó el registro correctamente",
     "detalleCotizacion": [
       {
-        "fechaCreacion": "2023-01-23",
-        "fechaExpiracion": "2023-02-22",
+        "fechaCreacion": "2024-01-01",
+        "fechaExpiracion": "2024-01-31",
         "cotizacion": "b29042ed-1add-4b49-82ba-0098cdc2e13e",
         "moneda": "PEN",
         "indicadorSeleccionado": "S",
@@ -13,120 +13,136 @@
         "nroDocumento": "48112801",
         "planes": [
           {
-            "plan": 1,
-            "descripcionPlan": "Plan Journey Vida Addons Soles",
-            "primaNeta": 577.2,
-            "primaBruta": 701.53,
+            "plan": 533611,
+            "descripcionPlan": "Plan de Seguro Vida Ley",
+            "primaNeta": 1380.19,
+            "primaBruta": 1380.19,
             "financiamientos": [
               {
                 "periodicidad": "Mensual",
-                "financiamiento": 17890,
+                "financiamiento": 17891,
                 "numeroCuotas": 12,
-                "fechaInicio": "2023-01-23",
-                "fechaFin": "2024-01-23",
+                "fechaInicio": "2024-02-01",
+                "fechaFin": "2025-02-01",
                 "cuotasFinanciamiento": [
                   {
                     "cuota": 1,
-                    "monto": 20.83,
-                    "fechaVencimiento": "2023-02-23"
+                    "monto": 115.02,
+                    "fechaVencimiento": "2024-02-01"
                   },
                   {
                     "cuota": 2,
-                    "monto": 20.83,
-                    "fechaVencimiento": "2023-03-23"
+                    "monto": 115.02,
+                    "fechaVencimiento": "2024-03-01"
                   },
                   {
                     "cuota": 3,
-                    "monto": 20.83,
-                    "fechaVencimiento": "2023-04-23"
+                    "monto": 115.02,
+                    "fechaVencimiento": "2024-04-01"
                   },
                   {
                     "cuota": 4,
-                    "monto": 20.83,
-                    "fechaVencimiento": "2023-05-23"
+                    "monto": 115.02,
+                    "fechaVencimiento": "2024-05-01"
                   },
                   {
                     "cuota": 5,
-                    "monto": 20.83,
-                    "fechaVencimiento": "2023-06-23"
+                    "monto": 115.02,
+                    "fechaVencimiento": "2024-06-01"
                   },
                   {
                     "cuota": 6,
-                    "monto": 20.83,
-                    "fechaVencimiento": "2023-07-23"
+                    "monto": 115.02,
+                    "fechaVencimiento": "2024-07-01"
                   },
                   {
                     "cuota": 7,
-                    "monto": 20.83,
-                    "fechaVencimiento": "2023-08-23"
+                    "monto": 115.02,
+                    "fechaVencimiento": "2024-08-01"
                   },
                   {
                     "cuota": 8,
-                    "monto": 20.83,
-                    "fechaVencimiento": "2023-09-23"
+                    "monto": 115.02,
+                    "fechaVencimiento": "2024-09-01"
                   },
                   {
                     "cuota": 9,
-                    "monto": 20.83,
-                    "fechaVencimiento": "2023-10-23"
+                    "monto": 115.02,
+                    "fechaVencimiento": "2024-10-01"
                   },
                   {
                     "cuota": 10,
-                    "monto": 20.83,
-                    "fechaVencimiento": "2023-11-23"
+                    "monto": 115.02,
+                    "fechaVencimiento": "2024-11-01"
                   },
                   {
                     "cuota": 11,
-                    "monto": 20.83,
-                    "fechaVencimiento": "2023-12-23"
+                    "monto": 115.02,
+                    "fechaVencimiento": "2024-12-01"
                   },
                   {
                     "cuota": 12,
-                    "monto": 20.83,
-                    "fechaVencimiento": "2024-01-23"
+                    "monto": 115.02,
+                    "fechaVencimiento": "2025-01-01"
+                  }
+
+
+                ]
+              },
+              {
+                "periodicidad": "Anual",
+                "financiamiento": 17892,
+                "numeroCuotas": 1,
+                "fechaInicio": "2024-02-01",
+                "fechaFin": "2025-02-01",
+                "cuotasFinanciamiento": [
+                  {
+                    "cuota": 1,
+                    "monto": 1380.19,
+                    "fechaVencimiento": "2024-03-01"
                   }
                 ]
               }
             ],
             "coberturas": [
               {
-                "cobertura": 10040,
-                "descripcionCobertura": "Daño malicioso, vandalismo y terrorismo",
+                "cobertura": 10920,
+                "descripcionCobertura": "Fallecimiento",
                 "tipoCobertura": "COB",
-                "primaBruta": 3.59,
-                "primaNeta": "PEN",
-                "moneda": "240000",
-                "sumaAsegurada": "N",
-                "porcentajeSeleccionado": "Cobertura principal (incendio todo riesgo)",
-                "observacionCobertura": "Observacion por inciendo forestal",
+                "primaBruta": 12.82,
+                "primaNeta": 12.82,
+                "moneda": "PEN",
+                "sumaAsegurada": 20000.00,
+                "porcentajeSeleccionado": "Cobertura principal (Fallecimiento)",
+                "observacionCobertura": "Fallecimiento",
                 "condicion": "OBL"
               },
               {
-                "cobertura": 10050,
-                "descripcionCobertura": "Muerte natural",
+                "cobertura": 10921,
+                "descripcionCobertura": "Invalidez Total y Permanente por Accidente o Enfermedad",
                 "tipoCobertura": "COB",
-                "primaBruta": 3.20,
-                "primaNeta": "PEN",
-                "moneda": "300000",
-                "sumaAsegurada": "N",
-                "porcentajeSeleccionado": "Cobertura principal (incendio todo riesgo)",
-                "observacionCobertura": "Observacion por incendio natural",
-                "condicion": "INC"
+                "primaBruta": 1.09,
+                "primaNeta": 1.09,
+                "moneda": "PEN",
+                "sumaAsegurada": 50000.00,
+                "porcentajeSeleccionado": "Cobertura principal (Fallecimiento)",
+                "observacionCobertura": "Invalidez Total y Permanente por Accidente o Enfermedad",
+                "condicion": "OPC"
               },
               {
-                "cobertura": 10060,
-                "descripcionCobertura": "Daño malicioso, vandalismo y terrorismo",
+                "cobertura": 10922,
+                "descripcionCobertura": "Anticipo de Capital por Enfermedad Grave",
                 "tipoCobertura": "COB",
-                "primaBruta": 3.01,
-                "primaNeta": "PEN",
-                "moneda": "200000",
-                "sumaAsegurada": "S",
-                "porcentajeSeleccionado": "Cobertura principal (incendio todo riesgo)",
-                "observacionCobertura": "Cobertura parcialmente cubierta",
-                "condicion": "OPC"
+                "primaBruta": 17.37,
+                "primaNeta": 17.37,
+                "moneda": "PEN",
+                "sumaAsegurada": 10000.00,
+                "porcentajeSeleccionado": "Cobertura principal (Anticipo de Capital por Enfermedad Grave)",
+                "observacionCobertura": "Enfermedades Grave",
+                "condicion": "INC"
               }
             ],
-            "datos_particulares": [
+            "datosParticulares": [
               {
                 "etiqueta": "NUMERO_DE_TRABAJADORES",
                 "codigo": "",
@@ -141,6 +157,12 @@
                 "etiqueta": "PLANILLA_BRUTA_MENSUAL",
                 "codigo": "",
                 "valor": "20000,00"
+              }
+            ],
+            "asistencias": [
+              {
+                "asistencia": 4313,
+                "descripcionAsistencia": "Cursos en riesgos laborales"
               }
             ]
           }
