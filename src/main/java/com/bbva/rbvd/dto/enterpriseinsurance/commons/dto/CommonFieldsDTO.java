@@ -10,12 +10,9 @@ public class CommonFieldsDTO implements Serializable {
     private String description;
     private BigDecimal amount;
     private String currency;
-
     private String id;
     private String name;
-
     private String quotationId;
-
     private DescriptionDTO period;
     private Boolean isSelected;
     private Boolean isRecommended;
@@ -24,9 +21,17 @@ public class CommonFieldsDTO implements Serializable {
     private String creationUser;
     private String userAudit;
     private String aap;
-    private String externalQuotationId;
+    private String sourceBranchCode;
+    private String lastChangeBranchId;
+    private Boolean isDataTreatment;
 
 
+    public Boolean getDataTreatment() {
+        return isDataTreatment;
+    }
+    public void setDataTreatment(Boolean dataTreatment) {
+        isDataTreatment = dataTreatment;
+    }
     public String getId() {
         return id;
     }
@@ -139,11 +144,20 @@ public class CommonFieldsDTO implements Serializable {
         this.aap = aap;
     }
 
-    public String getExternalQuotationId() {
-        return externalQuotationId;
+    public String getSourceBranchCode() {
+        return sourceBranchCode;
     }
 
-    public void setExternalQuotationId(String externalQuotationId) {
-        this.externalQuotationId = externalQuotationId;
+    public void setSourceBranchCode(String sourceBranchCode) {
+        this.sourceBranchCode = sourceBranchCode;
     }
+    public String getLastChangeBranchId() {
+        return lastChangeBranchId;
+    }
+
+    public void setLastChangeBranchId(String lastChangeBranchId) {
+        this.lastChangeBranchId = lastChangeBranchId;
+    }
+
+
 }

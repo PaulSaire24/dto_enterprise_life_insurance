@@ -57,6 +57,7 @@ public class ConstantsUtil {
 
     public static final class StringConstants{
         public static final String S = "S";
+        public static final String N = "N";
         public static final String A = "A";
         public static final String ZERO = "0";
         public static final String DATE_PATTERN = "dd/MM/yyyy";
