@@ -15,6 +15,7 @@ public class ConstantsUtil {
     public static final class InsuranceProduct{
         public static final String FIELD_PRODUCT_SHORT_DESC = "PRODUCT_SHORT_DESC";
         public static final String FIELD_INSURANCE_PRODUCT_TYPE = "INSURANCE_PRODUCT_TYPE";
+        public static final String FIELD_INSURANCE_PRODUCT_DESC = "INSURANCE_PRODUCT_DESC";
 
         private InsuranceProduct(){}
     }
@@ -62,6 +63,8 @@ public class ConstantsUtil {
         public static final String ZERO = "0";
         public static final String DATE_PATTERN = "dd/MM/yyyy";
         public static final String OFFICE_NUMBER = "0814";
+        public static final String PRODUCT_VIDA_LEY_ID = "842";
+        public static final String FLAG_MOCK_SELECT_PLAN = "FLAG_CALL_SELECT_PLAN";
 
         private StringConstants(){}
 

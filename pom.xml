@@ -32,7 +32,12 @@
 			<groupId>org.codehaus.jackson</groupId>
 			<artifactId>jackson-mapper-asl</artifactId>
 		</dependency>
-	</dependencies>
+        <dependency>
+            <groupId>com.bbva.elara</groupId>
+            <artifactId>elara-exception</artifactId>
+            <version>7.11.8</version>
+        </dependency>
+    </dependencies>
 	<build>
 		<finalName>${project.artifactId}</finalName>
 		<plugins>
