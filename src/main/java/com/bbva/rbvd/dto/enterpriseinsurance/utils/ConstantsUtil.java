@@ -15,6 +15,8 @@ public class ConstantsUtil {
     public static final class InsuranceProduct{
         public static final String FIELD_PRODUCT_SHORT_DESC = "PRODUCT_SHORT_DESC";
         public static final String FIELD_INSURANCE_PRODUCT_TYPE = "INSURANCE_PRODUCT_TYPE";
+        public static final String FIELD_INSURANCE_PRODUCT_BUSINESS_NAME = "INSURANCE_PRODUCT_BUSINESS_NAME";
+
 
         private InsuranceProduct(){}
     }
