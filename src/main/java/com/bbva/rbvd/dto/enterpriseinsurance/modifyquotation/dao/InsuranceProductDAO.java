@@ -1,7 +1,29 @@
 package com.bbva.rbvd.dto.enterpriseinsurance.modifyquotation.dao;
 
-public class InsuranceProductDAO extends CommonsDAO {
+import java.math.BigDecimal;
+
+public class InsuranceProductDAO {
+    private String insuranceCompanySimulationId;
+    private BigDecimal insuranceProductId;
     private String productShortDesc;
+    private String insuranceProductType;
+    private String insuranceBusinessName;
+
+    public String getInsuranceCompanySimulationId() {
+        return insuranceCompanySimulationId;
+    }
+
+    public void setInsuranceCompanySimulationId(String insuranceCompanySimulationId) {
+        this.insuranceCompanySimulationId = insuranceCompanySimulationId;
+    }
+
+    public BigDecimal getInsuranceProductId() {
+        return insuranceProductId;
+    }
+
+    public void setInsuranceProductId(BigDecimal insuranceProductId) {
+        this.insuranceProductId = insuranceProductId;
+    }
 
     public String getProductShortDesc() {
         return productShortDesc;
@@ -11,4 +33,19 @@ public class InsuranceProductDAO extends CommonsDAO {
         this.productShortDesc = productShortDesc;
     }
 
+    public String getInsuranceProductType() {
+        return insuranceProductType;
+    }
+
+    public void setInsuranceProductType(String insuranceProductType) {
+        this.insuranceProductType = insuranceProductType;
+    }
+
+    public String getInsuranceBusinessName() {
+        return insuranceBusinessName;
+    }
+
+    public void setInsuranceBusinessName(String insuranceBusinessName) {
+        this.insuranceBusinessName = insuranceBusinessName;
+    }
 }
