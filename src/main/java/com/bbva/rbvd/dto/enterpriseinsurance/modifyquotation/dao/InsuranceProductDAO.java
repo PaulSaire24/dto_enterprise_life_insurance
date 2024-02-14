@@ -1,7 +1,5 @@
 package com.bbva.rbvd.dto.enterpriseinsurance.modifyquotation.dao;
 
-import java.math.BigDecimal;
-
 public class InsuranceProductDAO extends CommonsDAO {
     private String productShortDesc;
 
