@@ -3,12 +3,16 @@ package com.bbva.rbvd.dto.enterpriseinsurance.commons.rimac;
 import com.bbva.rbvd.dto.enterpriseinsurance.modifyquotation.rimac.InstallmentFinancingBO;
 import org.codehaus.jackson.annotate.JsonIgnoreProperties;
 
+import java.math.BigDecimal;
 import java.util.List;
 
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class FinancingBO {
 
     private String periodicidad;
+    private String indicadorDescuentoPrima;
+    private BigDecimal montoNetoFraccionado;
+    private BigDecimal montoPago;
     private Long financiamiento;
     private Long numeroCuotas;
     private String fechaInicio;
@@ -21,6 +25,30 @@ public class FinancingBO {
 
     public void setPeriodicidad(String periodicidad) {
         this.periodicidad = periodicidad;
+    }
+
+    public String getIndicadorDescuentoPrima() {
+        return indicadorDescuentoPrima;
+    }
+
+    public void setIndicadorDescuentoPrima(String indicadorDescuentoPrima) {
+        this.indicadorDescuentoPrima = indicadorDescuentoPrima;
+    }
+
+    public BigDecimal getMontoNetoFraccionado() {
+        return montoNetoFraccionado;
+    }
+
+    public void setMontoNetoFraccionado(BigDecimal montoNetoFraccionado) {
+        this.montoNetoFraccionado = montoNetoFraccionado;
+    }
+
+    public BigDecimal getMontoPago() {
+        return montoPago;
+    }
+
+    public void setMontoPago(BigDecimal montoPago) {
+        this.montoPago = montoPago;
     }
 
     public Long getFinanciamiento() {
@@ -69,6 +97,9 @@ public class FinancingBO {
         sb.append("periodicidad='").append(periodicidad).append('\'');
         sb.append(", financiamiento=").append(financiamiento);
         sb.append(", numeroCuotas=").append(numeroCuotas);
+        sb.append(", montoNetoFraccionado=").append(montoNetoFraccionado);
+        sb.append(", montoPago=").append(montoPago);
+        sb.append(", indicadorDescuentoPrima=").append(indicadorDescuentoPrima);
         sb.append(", fechaInicio='").append(fechaInicio).append('\'');
         sb.append(", fechaFin='").append(fechaFin).append('\'');
         sb.append(", cuotasFinanciamiento=").append(cuotasFinanciamiento);

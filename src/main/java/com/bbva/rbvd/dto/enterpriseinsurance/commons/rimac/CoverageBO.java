@@ -13,11 +13,15 @@ public class CoverageBO {
     private BigDecimal primaBruta;
     private BigDecimal primaNeta;
     private String moneda;
+    private String principal;
     private BigDecimal sumaAsegurada;
     private String porcentajeSeleccionado;
     private String observacionCobertura;
     private String condicion;
-
+    private String indSeleccionar;
+    private Long edadMinima;
+    private Long edadMaxima;
+    private Long edadPermanecia;
 
     public Long getCobertura() {
         return cobertura;
@@ -33,6 +37,46 @@ public class CoverageBO {
 
     public void setDescripcionCobertura(String descripcionCobertura) {
         this.descripcionCobertura = descripcionCobertura;
+    }
+
+    public String getPrincipal() {
+        return principal;
+    }
+
+    public void setPrincipal(String principal) {
+        this.principal = principal;
+    }
+
+    public String getIndSeleccionar() {
+        return indSeleccionar;
+    }
+
+    public void setIndSeleccionar(String indSeleccionar) {
+        this.indSeleccionar = indSeleccionar;
+    }
+
+    public Long getEdadMinima() {
+        return edadMinima;
+    }
+
+    public void setEdadMinima(Long edadMinima) {
+        this.edadMinima = edadMinima;
+    }
+
+    public Long getEdadMaxima() {
+        return edadMaxima;
+    }
+
+    public void setEdadMaxima(Long edadMaxima) {
+        this.edadMaxima = edadMaxima;
+    }
+
+    public Long getEdadPermanecia() {
+        return edadPermanecia;
+    }
+
+    public void setEdadPermanecia(Long edadPermanecia) {
+        this.edadPermanecia = edadPermanecia;
     }
 
     public String getTipoCobertura() {
@@ -112,6 +156,11 @@ public class CoverageBO {
         sb.append(", porcentajeSeleccionado='").append(porcentajeSeleccionado).append('\'');
         sb.append(", observacionCobertura='").append(observacionCobertura).append('\'');
         sb.append(", condicion='").append(condicion).append('\'');
+        sb.append(", principal=").append(principal);
+        sb.append(", indSeleccionar='").append(indSeleccionar).append('\'');
+        sb.append(", edadMinima='").append(edadMinima).append('\'');
+        sb.append(", edadMaxima='").append(edadMaxima).append('\'');
+        sb.append(", edadPermanecia='").append(edadPermanecia).append('\'');
         sb.append('}');
         return sb.toString();
     }
