@@ -10,7 +10,15 @@ public class InstallmentFinancingBO {
     private Long cuota;
     private BigDecimal monto;
     private String fechaVencimiento;
+    private  String moneda;
 
+    public String getMoneda() {
+        return moneda;
+    }
+
+    public void setMoneda(String moneda) {
+        this.moneda = moneda;
+    }
 
     public Long getCuota() {
         return cuota;
@@ -41,6 +49,7 @@ public class InstallmentFinancingBO {
         final StringBuilder sb = new StringBuilder("InstallmentFinancingBO{");
         sb.append("cuota=").append(cuota);
         sb.append(", monto=").append(monto);
+        sb.append(", moneda=").append(moneda);
         sb.append(", fechaVencimiento='").append(fechaVencimiento).append('\'');
         sb.append('}');
         return sb.toString();
