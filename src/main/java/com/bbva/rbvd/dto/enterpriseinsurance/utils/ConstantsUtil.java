@@ -27,8 +27,6 @@ public class ConstantsUtil {
         public static final String FIELD_INSURANCE_MODALITY_TYPE = "INSURANCE_MODALITY_TYPE";
         public static final String FIELD_SALE_CHANNEL_ID = "SALE_CHANNEL_ID";
 
-        public static final String FIELD_SALE_CHANNEL_ID2 = "SALE_CHANNEL_ID_TEST";
-
         private InsurancePrdModality(){}
 
     }
