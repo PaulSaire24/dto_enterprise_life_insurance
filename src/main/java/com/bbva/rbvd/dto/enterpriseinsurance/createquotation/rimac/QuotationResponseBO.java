@@ -12,8 +12,8 @@ public class QuotationResponseBO {
     private String producto;
     private String moneda;
     private List<PlanBO> planes;
-    private QuotationBO cotizaciones;
-    private ParticularDataBO datosParticulares;
+    private List<QuotationBO> cotizaciones;
+    private List<ParticularDataBO> datosParticulares;
     private FinancingBO financiamiento;
 
     public String getProducto() {
@@ -40,19 +40,19 @@ public class QuotationResponseBO {
         this.planes = planes;
     }
 
-    public QuotationBO getCotizaciones() {
+    public List<QuotationBO> getCotizaciones() {
         return cotizaciones;
     }
 
-    public void setCotizaciones(QuotationBO cotizaciones) {
+    public void setCotizaciones(List<QuotationBO> cotizaciones) {
         this.cotizaciones = cotizaciones;
     }
 
-    public ParticularDataBO getDatosParticulares() {
+    public List<ParticularDataBO> getDatosParticulares() {
         return datosParticulares;
     }
 
-    public void setDatosParticulares(ParticularDataBO datosParticulares) {
+    public void setDatosParticulares(List<ParticularDataBO> datosParticulares) {
         this.datosParticulares = datosParticulares;
     }
 
