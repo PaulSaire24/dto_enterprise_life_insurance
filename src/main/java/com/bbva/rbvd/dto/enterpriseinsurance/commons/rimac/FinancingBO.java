@@ -1,13 +1,12 @@
 package com.bbva.rbvd.dto.enterpriseinsurance.commons.rimac;
 
-import com.bbva.rbvd.dto.enterpriseinsurance.modifyquotation.rimac.InstallmentFinancingBO;
 import org.codehaus.jackson.annotate.JsonIgnoreProperties;
 
 import java.math.BigDecimal;
 import java.util.List;
 
 @JsonIgnoreProperties(ignoreUnknown = true)
-public class FinancingBO {
+public class FinancingBO extends CommonsBO{
 
     private String periodicidad;
     private String indicadorDescuentoPrima;
@@ -15,8 +14,7 @@ public class FinancingBO {
     private BigDecimal montoPago;
     private Long financiamiento;
     private Long numeroCuotas;
-    private String fechaInicio;
-    private String fechaFin;
+
     private List<InstallmentFinancingBO> cuotasFinanciamiento;
 
     public String getPeriodicidad() {
@@ -67,21 +65,6 @@ public class FinancingBO {
         this.numeroCuotas = numeroCuotas;
     }
 
-    public String getFechaInicio() {
-        return fechaInicio;
-    }
-
-    public void setFechaInicio(String fechaInicio) {
-        this.fechaInicio = fechaInicio;
-    }
-
-    public String getFechaFin() {
-        return fechaFin;
-    }
-
-    public void setFechaFin(String fechaFin) {
-        this.fechaFin = fechaFin;
-    }
 
     public List<InstallmentFinancingBO> getCuotasFinanciamiento() {
         return cuotasFinanciamiento;
@@ -100,8 +83,8 @@ public class FinancingBO {
         sb.append(", montoNetoFraccionado=").append(montoNetoFraccionado);
         sb.append(", montoPago=").append(montoPago);
         sb.append(", indicadorDescuentoPrima=").append(indicadorDescuentoPrima);
-        sb.append(", fechaInicio='").append(fechaInicio).append('\'');
-        sb.append(", fechaFin='").append(fechaFin).append('\'');
+        sb.append(", fechaInicio='").append(this.getFechaInicio()).append('\'');
+        sb.append(", fechaFin='").append(this.getFechaFin()).append('\'');
         sb.append(", cuotasFinanciamiento=").append(cuotasFinanciamiento);
         sb.append('}');
         return sb.toString();

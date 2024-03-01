@@ -11,7 +11,7 @@ import java.io.Serializable;
 import java.util.Date;
 import java.util.List;
 
-public class GetQuotationDTO implements Serializable {
+public class QuotationDetailDTO implements Serializable {
 
     private static final long serialVersionUID = 1L;
 
@@ -119,7 +119,7 @@ public class GetQuotationDTO implements Serializable {
 
     @Override
     public String toString() {
-        return "GetQuotationDTO{" +
+        return "QuotationDetailDTO{" +
                 "quotationId='" + quotationId + '\'' +
                 ", id='" + id + '\'' +
                 ", quotationDate=" + quotationDate +
