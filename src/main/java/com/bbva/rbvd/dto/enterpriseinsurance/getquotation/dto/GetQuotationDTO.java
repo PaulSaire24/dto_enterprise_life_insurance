@@ -6,18 +6,25 @@ import com.bbva.rbvd.dto.enterpriseinsurance.commons.dto.ValidityPeriodDTO;
 import com.bbva.rbvd.dto.enterpriseinsurance.commons.dto.DescriptionDTO;
 import com.bbva.rbvd.dto.enterpriseinsurance.commons.dto.ContactDetailsDTO;
 import com.bbva.rbvd.dto.enterpriseinsurance.commons.dto.ParticipantDTO;
+
+import java.io.Serializable;
+import java.util.Date;
 import java.util.List;
 
-public class GetQuotationDTO {
+public class GetQuotationDTO implements Serializable {
+
+    private static final long serialVersionUID = 1L;
+
+
     private String quotationId;
     private String id;
-    private String quotationDate;
+    private Date quotationDate;
     private EmployeesDTO employees;
     private ProductDTO product;
-    private List <ContactDetailsDTO> contactDetailsDTO;
-    private ValidityPeriodDTO validityPeriodDTO;
+    private List<ContactDetailsDTO> contactDetails;
+    private ValidityPeriodDTO validityPeriod;
     private DescriptionDTO businessAgent;
-    private List<ParticipantDTO> participantDTO;
+    private List<ParticipantDTO> participants;
     private DescriptionDTO status;
     private String quotationReference;
 
@@ -53,11 +60,11 @@ public class GetQuotationDTO {
         this.id = id;
     }
 
-    public String getQuotationDate() {
+    public Date getQuotationDate() {
         return quotationDate;
     }
 
-    public void setQuotationDate(String quotationDate) {
+    public void setQuotationDate(Date quotationDate) {
         this.quotationDate = quotationDate;
     }
 
@@ -77,20 +84,20 @@ public class GetQuotationDTO {
         this.product = product;
     }
 
-    public List<ContactDetailsDTO> getContactDetailsDTO() {
-        return contactDetailsDTO;
+    public List<ContactDetailsDTO> getContactDetails() {
+        return contactDetails;
     }
 
-    public void setContactDetailsDTO(List<ContactDetailsDTO> contactDetailsDTO) {
-        this.contactDetailsDTO = contactDetailsDTO;
+    public void setContactDetails(List<ContactDetailsDTO> contactDetails) {
+        this.contactDetails = contactDetails;
     }
 
-    public ValidityPeriodDTO getValidityPeriodDTO() {
-        return validityPeriodDTO;
+    public ValidityPeriodDTO getValidityPeriod() {
+        return validityPeriod;
     }
 
-    public void setValidityPeriodDTO(ValidityPeriodDTO validityPeriodDTO) {
-        this.validityPeriodDTO = validityPeriodDTO;
+    public void setValidityPeriod(ValidityPeriodDTO validityPeriod) {
+        this.validityPeriod = validityPeriod;
     }
 
     public DescriptionDTO getBusinessAgent() {
@@ -101,12 +108,13 @@ public class GetQuotationDTO {
         this.businessAgent = businessAgent;
     }
 
-    public List<ParticipantDTO> getParticipantDTO() {
-        return participantDTO;
+
+    public List<ParticipantDTO> getParticipants() {
+        return participants;
     }
 
-    public void setParticipantDTO(List<ParticipantDTO> participantDTO) {
-        this.participantDTO = participantDTO;
+    public void setParticipants(List<ParticipantDTO> participants) {
+        this.participants = participants;
     }
 
     @Override
@@ -114,15 +122,15 @@ public class GetQuotationDTO {
         return "GetQuotationDTO{" +
                 "quotationId='" + quotationId + '\'' +
                 ", id='" + id + '\'' +
-                ", quotationDate='" + quotationDate + '\'' +
+                ", quotationDate=" + quotationDate +
                 ", employees=" + employees +
                 ", product=" + product +
-                ", contactDetailsDTO=" + contactDetailsDTO +
-                ", validityPeriodDTO=" + validityPeriodDTO +
+                ", contactDetails=" + contactDetails +
+                ", validityPeriod=" + validityPeriod +
                 ", businessAgent=" + businessAgent +
-                ", participantDTO=" + participantDTO +
-                ", quotationReference='" + quotationReference + '\'' +
+                ", participants=" + participants +
                 ", status=" + status +
+                ", quotationReference='" + quotationReference + '\'' +
                 '}';
     }
 }
