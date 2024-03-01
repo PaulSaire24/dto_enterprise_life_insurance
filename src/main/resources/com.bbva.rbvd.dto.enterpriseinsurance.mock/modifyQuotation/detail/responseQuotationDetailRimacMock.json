@@ -1,0 +1,89 @@
+{
+  "payload": {
+    "cotizacion": "61fc1828-ec56-4ec5-bd1d-77d9be5a2b25",
+    "diasVigencia": "30",
+    "fechaFinVigencia": "2024-03-31",
+    "plan": {
+      "plan": 534272,
+      "descripcionPlan": "PLAN 2 SOLES 10000",
+      "moneda": "PEN",
+      "primaNeta": 10.75,
+      "primaBruta": 12.68,
+      "fechaInicio": "2024-03-01",
+      "fechaFin": "2024-04-01",
+      "financiamientos": [
+        {
+          "periodicidad": "Anual",
+          "financiamiento": 23774,
+          "numeroCuotas": 1,
+          "fechaInicio": "2024-03-01",
+          "fechaFin": "2025-03-01",
+          "cuotasFinanciamiento": [
+            {
+              "cuota": 1,
+              "monto": 12.68,
+              "fechaVencimiento": "2025-03-01"
+            }
+          ]
+        }
+      ],
+      "coberturas": [
+        {
+          "cobertura": 9677,
+          "descripcionCobertura": "Muerte Accidental",
+          "tipoCobertura": "COB",
+          "porcentajeSeleccionado": "100%",
+          "observacionCobertura": "Observacion Componente 9677",
+          "condicion": "OBL",
+          "indSeleccionar": "S",
+          "edadMinima": 18,
+          "edadMaxima": 64,
+          "edadPermanencia": 65
+        },
+        {
+          "cobertura": 9675,
+          "descripcionCobertura": "Muerte Natural",
+          "tipoCobertura": "COB",
+          "porcentajeSeleccionado": "100%",
+          "observacionCobertura": "Observacion Componente 9675",
+          "condicion": "OBL",
+          "indSeleccionar": "S",
+          "edadMinima": 18,
+          "edadMaxima": 64,
+          "edadPermanencia": 65
+        },
+        {
+          "cobertura": 9581,
+          "descripcionCobertura": "Invalidez Total y Permanente por Accidente",
+          "tipoCobertura": "COB",
+          "porcentajeSeleccionado": "100%",
+          "observacionCobertura": "Observacion Componente 9581",
+          "condicion": "OBL",
+          "indSeleccionar": "S",
+          "edadMinima": 18,
+          "edadMaxima": 64,
+          "edadPermanencia": 65
+        }
+      ],
+      "asistencias": [
+        {
+          "asistencia": 4001,
+          "descripcionAsistencia": "Asesoria Legal"
+        },
+        {
+          "asistencia": 4002,
+          "descripcionAsistencia": "Descuentos en una red de salud"
+        },
+        {
+          "asistencia": 4003,
+          "descripcionAsistencia": "Cursos virtuales en riesgos laborales"
+        }
+      ]
+    },
+    "producto": "VIDALEY",
+    "moneda": "PEN",
+    "planes": [
+      534272
+    ]
+  }
+}

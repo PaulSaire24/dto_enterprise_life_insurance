@@ -1,20 +1,20 @@
 package com.bbva.rbvd.dto.enterpriseinsurance.commons.dto;
 
 import java.io.Serializable;
-import java.math.BigDecimal;
 
 public class AmountDTO implements Serializable {
 
     private static final long serialVersionUID = 1L;
 
-    private BigDecimal amount;
+    private Double amount;
     private String currency;
 
-    public BigDecimal getAmount() {
+
+    public Double getAmount() {
         return amount;
     }
 
-    public void setAmount(BigDecimal amount) {
+    public void setAmount(Double amount) {
         this.amount = amount;
     }
 

@@ -1,16 +1,13 @@
 package com.bbva.rbvd.dto.enterpriseinsurance.commons.rimac;
 
-import com.bbva.rbvd.dto.enterpriseinsurance.commons.rimac.AssistanceBO;
-import com.bbva.rbvd.dto.enterpriseinsurance.commons.rimac.CoverageBO;
-import com.bbva.rbvd.dto.enterpriseinsurance.commons.rimac.FinancingBO;
-import com.bbva.rbvd.dto.enterpriseinsurance.commons.rimac.ParticularDataBO;
+
 import org.codehaus.jackson.annotate.JsonIgnoreProperties;
 
 import java.math.BigDecimal;
 import java.util.List;
 
 @JsonIgnoreProperties(ignoreUnknown = true)
-public class PlanBO {
+public class PlanBO extends CommonsBO{
 
     private Long plan;
     private String descripcionPlan;
