@@ -94,9 +94,7 @@ public class PlanBO {
     public void setAsistencias(List<AssistanceBO> asistencias) {
         this.asistencias = asistencias;
     }
-    public PlanBO(Long id) {
-        this.plan = id;
-    }
+
     @Override
     public String toString() {
         final StringBuilder sb = new StringBuilder("PlanBO{");
