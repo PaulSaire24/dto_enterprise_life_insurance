@@ -15,7 +15,7 @@ public class QuotationInputBO {
     private String moneda;
     private List<PlanBO> planes;
     private String tipoCotizacion;
-    private ParticularDataBO datosParticulares;
+    private List<ParticularDataBO> datosParticulares;
     private ContractorDTO contratante;
 
     public String getProducto() {
@@ -58,13 +58,14 @@ public class QuotationInputBO {
         this.planes = planes;
     }
 
-    public ParticularDataBO getDatosParticulares() {
+    public List<ParticularDataBO> getDatosParticulares() {
         return datosParticulares;
     }
 
-    public void setDatosParticulares(ParticularDataBO datosParticulares) {
+    public void setDatosParticulares(List<ParticularDataBO> datosParticulares) {
         this.datosParticulares = datosParticulares;
     }
+
     @Override
     public String toString() {
         final StringBuilder sb = new StringBuilder("QuotationResponseBO{");
