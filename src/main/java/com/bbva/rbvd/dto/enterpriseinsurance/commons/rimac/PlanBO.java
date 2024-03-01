@@ -20,6 +20,7 @@ public class PlanBO {
     private List<CoverageBO> coberturas;
     private List<ParticularDataBO> datosParticulares;
     private List<AssistanceBO> asistencias;
+    private String moneda;
 
 
     public Long getPlan() {
@@ -78,6 +79,14 @@ public class PlanBO {
         this.datosParticulares = datosParticulares;
     }
 
+    public String getMoneda() {
+        return moneda;
+    }
+
+    public void setMoneda(String moneda) {
+        this.moneda = moneda;
+    }
+
     public List<AssistanceBO> getAsistencias() {
         return asistencias;
     }
@@ -97,6 +106,7 @@ public class PlanBO {
         sb.append(", coberturas=").append(coberturas);
         sb.append(", datosParticulares=").append(datosParticulares);
         sb.append(", asistencias=").append(asistencias);
+        sb.append(", moneda=").append(moneda);
         sb.append('}');
         return sb.toString();
     }
