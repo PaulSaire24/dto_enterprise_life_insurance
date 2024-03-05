@@ -150,7 +150,7 @@ public class InsuranceQuotationDAO {
         }
 
         public InsuranceQuotationDAOBuilder policyQuotaEndValidityDate(String policyQuotaEndValidityDate){
-            insuranceQuotationDAO.policyQuotaEndValidityDate = policyQuotaEndValidityDate;;
+            insuranceQuotationDAO.policyQuotaEndValidityDate = policyQuotaEndValidityDate;
             return InsuranceQuotationDAOBuilder.this;
         }
 
