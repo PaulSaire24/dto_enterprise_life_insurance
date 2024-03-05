@@ -10,7 +10,7 @@ public class QuotationBO {
     private String cotizacion;
     private String diasVigencia;
     private String fechaFinVigencia;
-    private List<PlanBO> planes;
+    private List<PlanBO> plan;
 
     public String getCotizacion() {
         return cotizacion;
@@ -36,12 +36,12 @@ public class QuotationBO {
         this.fechaFinVigencia = fechaFinVigencia;
     }
 
-    public List<PlanBO> getPlanes() {
-        return planes;
+    public List<PlanBO> getPlan() {
+        return plan;
     }
 
-    public void setPlanes(List<PlanBO> planes) {
-        this.planes = planes;
+    public void setPlan(List<PlanBO> plan) {
+        this.plan = plan;
     }
     @Override
     public String toString() {
@@ -49,7 +49,7 @@ public class QuotationBO {
         sb.append(", cotizacion='").append(cotizacion).append('\'');
         sb.append(", diasVigencia='").append(diasVigencia).append('\'');
         sb.append(", fechaFinVigencia='").append(fechaFinVigencia).append('\'');
-        sb.append(", planes=").append(planes);
+        sb.append(", planes=").append(plan);
         sb.append('}');
         return sb.toString();
     }

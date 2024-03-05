@@ -43,6 +43,10 @@ public class ConstantsUtil {
         public static final String QUERY_SELECT_INSURANCE_SIMULATION_ID_ENTERPRISE="PISD.SELECT_INSURANCE_SIMULATION_ID_ENTERPRISE";
         public static final String QUERY_INSERT_INSRNC_SIMLT_PRD_ENTERPRISE="PISD.INSERT_INSRNC_SIMLT_PRD_ENTERPRISE";
         public static final String QUERY_INSERT_SIMULATE_ENTERPRISE="PISD.INSERT_SIMULATE_ENTERPRISE";
+        public static final String QUERY_VALIDATE_IF_QUOTATION_MOD_EXISTS="PISD.VALIDATE_IF_QUOTATION_MOD_EXISTS";
+        public static final String QUERY_DELETE_QUOTATION_MOD="PISD.DELETE_QUOTATION_MOD";
+        public static final String QUERY_GET_PRODUCT_INFO_BY_INTERNAL_ID_AND_PRODUCT_TYPE = "PISD.GET_PRODUCT_INFO_BY_INTERNAL_ID_AND_PRODUCT_TYPE";
+
 
         private QueriesName(){}
 
@@ -67,6 +71,7 @@ public class ConstantsUtil {
         public static final String OFFICE_NUMBER = "0814";
         public static final String PRODUCT_VIDA_LEY_ID = "842";
         public static final String FLAG_MOCK_SELECT_PLAN = "FLAG_CALL_SELECT_PLAN";
+        public static final String FIELD_RESULT_NUMBER = "RESULT_NUMBER";
 
         private StringConstants(){}
 

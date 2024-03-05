@@ -1,8 +1,6 @@
 package com.bbva.rbvd.dto.enterpriseinsurance.createquotation.rimac;
 
 import com.bbva.rbvd.dto.enterpriseinsurance.commons.dto.ContractorDTO;
-import com.bbva.rbvd.dto.enterpriseinsurance.commons.dto.IdentityDocumentDTO;
-import com.bbva.rbvd.dto.enterpriseinsurance.commons.rimac.FinancingBO;
 import com.bbva.rbvd.dto.enterpriseinsurance.commons.rimac.ParticularDataBO;
 import com.bbva.rbvd.dto.enterpriseinsurance.commons.rimac.PlanBO;
 import org.codehaus.jackson.annotate.JsonIgnoreProperties;
