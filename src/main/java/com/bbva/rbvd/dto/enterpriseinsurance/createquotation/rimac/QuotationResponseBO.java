@@ -24,14 +24,6 @@ public class QuotationResponseBO {
         this.producto = producto;
     }
 
-    public String getMoneda() {
-        return moneda;
-    }
-
-    public void setMoneda(String moneda) {
-        this.moneda = moneda;
-    }
-
     public List<Long> getPlanes() {
         return planes;
     }
@@ -39,7 +31,13 @@ public class QuotationResponseBO {
     public void setPlanes(List<Long> planes) {
         this.planes = planes;
     }
+    public String getMoneda() {
+        return moneda;
+    }
 
+    public void setMoneda(String moneda) {
+        this.moneda = moneda;
+    }
     public List<QuotationBO> getCotizaciones() {
         return cotizaciones;
     }
