@@ -11,7 +11,7 @@ import java.util.List;
 public class QuotationResponseBO {
     private String producto;
     private String moneda;
-    private List<PlanBO> planes;
+    private List<Long> planes;
     private List<QuotationBO> cotizaciones;
     private List<ParticularDataBO> datosParticulares;
     private FinancingBO financiamiento;
@@ -32,11 +32,11 @@ public class QuotationResponseBO {
         this.moneda = moneda;
     }
 
-    public List<PlanBO> getPlanes() {
+    public List<Long> getPlanes() {
         return planes;
     }
 
-    public void setPlanes(List<PlanBO> planes) {
+    public void setPlanes(List<Long> planes) {
         this.planes = planes;
     }
 
