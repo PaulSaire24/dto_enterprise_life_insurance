@@ -10,7 +10,7 @@ public class QuotationBO {
     private String cotizacion;
     private String diasVigencia;
     private String fechaFinVigencia;
-    private List<PlanBO> plan;
+    private PlanBO plan;
 
     public String getCotizacion() {
         return cotizacion;
@@ -36,13 +36,14 @@ public class QuotationBO {
         this.fechaFinVigencia = fechaFinVigencia;
     }
 
-    public List<PlanBO> getPlan() {
+    public PlanBO getPlan() {
         return plan;
     }
 
-    public void setPlan(List<PlanBO> plan) {
+    public void setPlan(PlanBO plan) {
         this.plan = plan;
     }
+
     @Override
     public String toString() {
         final StringBuilder sb = new StringBuilder("QuotationBO{");
