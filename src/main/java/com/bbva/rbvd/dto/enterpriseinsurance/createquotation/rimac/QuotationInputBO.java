@@ -11,7 +11,7 @@ import java.util.List;
 public class QuotationInputBO {
     private String producto;
     private String moneda;
-    private List<PlanBO> planes;
+    private List<Long> planes;
     private String tipoCotizacion;
     private List<ParticularDataBO> datosParticulares;
     private ContractorDTO contratante;
@@ -48,11 +48,11 @@ public class QuotationInputBO {
         this.contratante = contratante;
     }
 
-    public List<PlanBO> getPlanes() {
+    public List<Long> getPlanes() {
         return planes;
     }
 
-    public void setPlanes(List<PlanBO> planes) {
+    public void setPlanes(List<Long> planes) {
         this.planes = planes;
     }
 
