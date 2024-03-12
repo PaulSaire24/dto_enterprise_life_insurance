@@ -46,6 +46,7 @@ public class ConstantsUtil {
         public static final String QUERY_VALIDATE_IF_QUOTATION_MOD_EXISTS="PISD.VALIDATE_IF_QUOTATION_MOD_EXISTS";
         public static final String QUERY_DELETE_QUOTATION_MOD="PISD.DELETE_QUOTATION_MOD";
         public static final String QUERY_GET_PRODUCT_INFO_BY_INTERNAL_ID_AND_PRODUCT_TYPE = "PISD.GET_PRODUCT_INFO_BY_INTERNAL_ID_AND_PRODUCT_TYPE";
+        public static final String QUERY_GET_QUOTATION_INFO_BY_INTERNAL_ID= "PISD.GET_QUOTATION_INFORMATION_BY_ID";
 
 
         private QueriesName(){}
@@ -64,6 +65,8 @@ public class ConstantsUtil {
 
     public static final class StringConstants{
         public static final String S = "S";
+        public static final String D = "D";
+
         public static final String N = "N";
         public static final String A = "A";
         public static final String ZERO = "0";
@@ -72,10 +75,10 @@ public class ConstantsUtil {
         public static final String PRODUCT_VIDA_LEY_ID = "842";
         public static final String FLAG_MOCK_SELECT_PLAN = "FLAG_CALL_SELECT_PLAN";
         public static final String FIELD_RESULT_NUMBER = "RESULT_NUMBER";
-
         private StringConstants(){}
 
     }
+
 
     public static final class FinancingPeriodicity{
         public static final String ANUAL = "Anual";
