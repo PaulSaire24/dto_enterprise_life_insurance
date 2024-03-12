@@ -25,7 +25,95 @@ public class InsuranceQuotationDAO {
     private String clientLastName;
     private BigDecimal issuedReceiptNumber;
     private String lastFourPanId;
+    private String rfqInternalId;
 
+    public void setPolicyQuotaInternalId(String policyQuotaInternalId) {
+        this.policyQuotaInternalId = policyQuotaInternalId;
+    }
+
+    public void setInsuranceSimulationId(BigDecimal insuranceSimulationId) {
+        this.insuranceSimulationId = insuranceSimulationId;
+    }
+
+    public void setInsuranceCompanyQuotaId(String insuranceCompanyQuotaId) {
+        this.insuranceCompanyQuotaId = insuranceCompanyQuotaId;
+    }
+
+    public void setQuoteDate(String quoteDate) {
+        this.quoteDate = quoteDate;
+    }
+
+    public void setQuotaHmsDate(String quotaHmsDate) {
+        this.quotaHmsDate = quotaHmsDate;
+    }
+
+    public void setPolicyQuotaEndValidityDate(String policyQuotaEndValidityDate) {
+        this.policyQuotaEndValidityDate = policyQuotaEndValidityDate;
+    }
+
+    public void setCustomerId(String customerId) {
+        this.customerId = customerId;
+    }
+
+    public void setPolicyQuotaStatusType(String policyQuotaStatusType) {
+        this.policyQuotaStatusType = policyQuotaStatusType;
+    }
+
+    public void setLastChangeBranchId(String lastChangeBranchId) {
+        this.lastChangeBranchId = lastChangeBranchId;
+    }
+
+    public void setSourceBranchId(String sourceBranchId) {
+        this.sourceBranchId = sourceBranchId;
+    }
+
+    public void setCreationUserId(String creationUserId) {
+        this.creationUserId = creationUserId;
+    }
+
+    public void setCreationDate(String creationDate) {
+        this.creationDate = creationDate;
+    }
+
+    public void setUserAuditId(String userAuditId) {
+        this.userAuditId = userAuditId;
+    }
+
+    public void setAuditDate(String auditDate) {
+        this.auditDate = auditDate;
+    }
+
+    public void setPersonalDocType(String personalDocType) {
+        this.personalDocType = personalDocType;
+    }
+
+    public void setParticipantPersonalId(String participantPersonalId) {
+        this.participantPersonalId = participantPersonalId;
+    }
+
+    public void setPolicyQuotaCancellationDate(String policyQuotaCancellationDate) {
+        this.policyQuotaCancellationDate = policyQuotaCancellationDate;
+    }
+
+    public void setInsuredCustomerName(String insuredCustomerName) {
+        this.insuredCustomerName = insuredCustomerName;
+    }
+
+    public void setClientLastName(String clientLastName) {
+        this.clientLastName = clientLastName;
+    }
+
+    public void setIssuedReceiptNumber(BigDecimal issuedReceiptNumber) {
+        this.issuedReceiptNumber = issuedReceiptNumber;
+    }
+
+    public void setLastFourPanId(String lastFourPanId) {
+        this.lastFourPanId = lastFourPanId;
+    }
+
+    public void setRfqInternalId(String rfqInternalId) {
+        this.rfqInternalId = rfqInternalId;
+    }
 
     public String getPolicyQuotaInternalId() {
         return policyQuotaInternalId;
@@ -110,6 +198,12 @@ public class InsuranceQuotationDAO {
     public String getLastFourPanId() {
         return lastFourPanId;
     }
+
+    public String getRfqInternalId() {
+        return rfqInternalId;
+    }
+
+
 
 
     public static final class InsuranceQuotationDAOBuilder{
