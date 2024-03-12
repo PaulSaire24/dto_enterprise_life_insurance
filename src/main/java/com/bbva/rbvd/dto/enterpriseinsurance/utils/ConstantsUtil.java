@@ -75,30 +75,10 @@ public class ConstantsUtil {
         public static final String PRODUCT_VIDA_LEY_ID = "842";
         public static final String FLAG_MOCK_SELECT_PLAN = "FLAG_CALL_SELECT_PLAN";
         public static final String FIELD_RESULT_NUMBER = "RESULT_NUMBER";
-        public static final String ANNUAL = "ANNUAL";
-        public static final String MONTHLY = "MONTHLY";
-        public static final String CURRENCY_PEN = "PEN";
-        public static final String CURRENCY_SOL = "SOL";
-        public static final String CURRENCY_DOL = "DOL";
         private StringConstants(){}
 
     }
 
-
-    public static final class CoverageStringConstants{
-        public static final String COVERAGE_INC = "INC";
-        public static final String COVERAGE_INCLUDED = "INCLUDED";
-        public static final String COVERAGE_INCLUIDA = "INCLUIDA";
-        public static final String COVERAGE_OBL = "OBL";
-        public static final String COVERAGE_MANDATORY = "MANDATORY";
-        public static final String COVERAGE_OBLIGATORIA = "OBLIGATORIA";
-        public static final String COVERAGE_OPC = "OPC";
-        public static final String COVERAGE_OPTIONAL = "OPTIONAL";
-        public static final String COVERAGE_OPCIONAL = "OPCIONAL";
-
-        private CoverageStringConstants(){}
-
-    }
 
     public static final class FinancingPeriodicity{
         public static final String ANUAL = "Anual";
