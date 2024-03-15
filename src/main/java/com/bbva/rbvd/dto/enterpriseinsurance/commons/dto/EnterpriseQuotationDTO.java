@@ -13,6 +13,9 @@ public class EnterpriseQuotationDTO extends CommonFieldsDTO {
     private List<ParticipantDTO> participants;
     private String quotationReference;
     private DescriptionDTO status;
+    private PaymentMethodDTO paymentMethod;
+    private BankDTO bank;
+
 
     public LocalDate getQuotationDate() {
         return quotationDate;
@@ -86,6 +89,22 @@ public class EnterpriseQuotationDTO extends CommonFieldsDTO {
         this.status = status;
     }
 
+    public PaymentMethodDTO getPaymentMethod() {
+        return paymentMethod;
+    }
+
+    public void setPaymentMethod(PaymentMethodDTO paymentMethod) {
+        this.paymentMethod = paymentMethod;
+    }
+
+    public BankDTO getBank() {
+        return bank;
+    }
+
+    public void setBank(BankDTO bank) {
+        this.bank = bank;
+    }
+
     @Override
     public String toString() {
         return "EnterpriseQuotationDTO{" +
@@ -100,6 +119,8 @@ public class EnterpriseQuotationDTO extends CommonFieldsDTO {
                 ", participants=" + participants +
                 ", quotationReference='" + quotationReference + '\'' +
                 ", status=" + status +
+                ", paymentMethod='" + paymentMethod + '\'' +
+                ", bank=" + bank +
                 '}';
     }
 }
