@@ -113,20 +113,10 @@ public class InsuranceQuoteCoLifeDAO {
     }
 
     public static final class Builder {
-        private String policyQuotaInternalId;
-        private BigDecimal insuranceProductId;
-        private String insuranceModalityType;
-        private BigDecimal incomesPayrollAmount;
-        private String currencyId;
-        private int payrollEmployeeNumber;
-        private String employeeEmailName;
-        private int yearsOldEmployeesIndType;
-        private String creationUserId;
-        private String creationDate;
-        private String userAuditId;
-        private String auditDate;
+        private final InsuranceQuoteCoLifeDAO insuranceQuoteCoLifeDAO;
 
         public Builder() {
+            this.insuranceQuoteCoLifeDAO = new InsuranceQuoteCoLifeDAO();
         }
 
         public static Builder an() {
@@ -134,81 +124,66 @@ public class InsuranceQuoteCoLifeDAO {
         }
 
         public Builder withPolicyQuotaInternalId(String policyQuotaInternalId) {
-            this.policyQuotaInternalId = policyQuotaInternalId;
-            return this;
+            insuranceQuoteCoLifeDAO.policyQuotaInternalId = policyQuotaInternalId;
+            return Builder.this;
         }
 
         public Builder withInsuranceProductId(BigDecimal insuranceProductId) {
-            this.insuranceProductId = insuranceProductId;
-            return this;
+            insuranceQuoteCoLifeDAO.insuranceProductId = insuranceProductId;
+            return Builder.this;
         }
 
         public Builder withInsuranceModalityType(String insuranceModalityType) {
-            this.insuranceModalityType = insuranceModalityType;
-            return this;
+            insuranceQuoteCoLifeDAO.insuranceModalityType = insuranceModalityType;
+            return Builder.this;
         }
 
         public Builder withIncomesPayrollAmount(BigDecimal incomesPayrollAmount) {
-            this.incomesPayrollAmount = incomesPayrollAmount;
-            return this;
+            insuranceQuoteCoLifeDAO.incomesPayrollAmount = incomesPayrollAmount;
+            return Builder.this;
         }
 
         public Builder withCurrencyId(String currencyId) {
-            this.currencyId = currencyId;
-            return this;
+            insuranceQuoteCoLifeDAO.currencyId = currencyId;
+            return Builder.this;
         }
 
         public Builder withPayrollEmployeeNumber(int payrollEmployeeNumber) {
-            this.payrollEmployeeNumber = payrollEmployeeNumber;
-            return this;
+            insuranceQuoteCoLifeDAO.payrollEmployeeNumber = payrollEmployeeNumber;
+            return Builder.this;
         }
 
         public Builder withEmployeeEmailName(String employeeEmailName) {
-            this.employeeEmailName = employeeEmailName;
-            return this;
+            insuranceQuoteCoLifeDAO.employeeEmailName = employeeEmailName;
+            return Builder.this;
         }
 
         public Builder withYearsOldEmployeesIndType(int yearsOldEmployeesIndType) {
-            this.yearsOldEmployeesIndType = yearsOldEmployeesIndType;
-            return this;
+            insuranceQuoteCoLifeDAO.yearsOldEmployeesIndType = yearsOldEmployeesIndType;
+            return Builder.this;
         }
 
         public Builder withCreationUserId(String creationUserId) {
-            this.creationUserId = creationUserId;
-            return this;
+            insuranceQuoteCoLifeDAO.creationUserId = creationUserId;
+            return Builder.this;
         }
 
         public Builder withCreationDate(String creationDate) {
-            this.creationDate = creationDate;
-            return this;
+            insuranceQuoteCoLifeDAO.creationDate = creationDate;
+            return Builder.this;
         }
 
         public Builder withUserAuditId(String userAuditId) {
-            this.userAuditId = userAuditId;
-            return this;
+            insuranceQuoteCoLifeDAO.userAuditId = userAuditId;
+            return Builder.this;
         }
 
         public Builder withAuditDate(String auditDate) {
-            this.auditDate = auditDate;
-            return this;
+            insuranceQuoteCoLifeDAO.auditDate = auditDate;
+            return Builder.this;
         }
 
-        public InsuranceQuoteCoLifeDAO build() {
-            InsuranceQuoteCoLifeDAO insuranceQuoteCoLifeDAO = new InsuranceQuoteCoLifeDAO();
-            insuranceQuoteCoLifeDAO.setPolicyQuotaInternalId(policyQuotaInternalId);
-            insuranceQuoteCoLifeDAO.setInsuranceProductId(insuranceProductId);
-            insuranceQuoteCoLifeDAO.setInsuranceModalityType(insuranceModalityType);
-            insuranceQuoteCoLifeDAO.setIncomesPayrollAmount(incomesPayrollAmount);
-            insuranceQuoteCoLifeDAO.setCurrencyId(currencyId);
-            insuranceQuoteCoLifeDAO.setPayrollEmployeeNumber(payrollEmployeeNumber);
-            insuranceQuoteCoLifeDAO.setEmployeeEmailName(employeeEmailName);
-            insuranceQuoteCoLifeDAO.setYearsOldEmployeesIndType(yearsOldEmployeesIndType);
-            insuranceQuoteCoLifeDAO.setCreationUserId(creationUserId);
-            insuranceQuoteCoLifeDAO.setCreationDate(creationDate);
-            insuranceQuoteCoLifeDAO.setUserAuditId(userAuditId);
-            insuranceQuoteCoLifeDAO.setAuditDate(auditDate);
-            return insuranceQuoteCoLifeDAO;
-        }
+        public InsuranceQuoteCoLifeDAO build() {return insuranceQuoteCoLifeDAO;}
     }
 
 
