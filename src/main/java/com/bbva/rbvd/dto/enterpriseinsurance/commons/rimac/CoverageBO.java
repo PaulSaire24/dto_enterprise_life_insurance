@@ -22,6 +22,7 @@ public class CoverageBO {
     private Long edadMinima;
     private Long edadMaxima;
     private Long edadPermanecia;
+    private Long numeroSueldos;
 
     public Long getCobertura() {
         return cobertura;
