@@ -126,7 +126,7 @@ public class InsuranceQuoteCoLifeDAO {
         private String userAuditId;
         private String auditDate;
 
-        private Builder() {
+        public Builder() {
         }
 
         public static Builder an() {
