@@ -7,6 +7,13 @@ public class ConstantsUtil {
     public static final class InsuranceSimulation{
         public static final String FIELD_INSRNC_COMPANY_SIMULATION_ID = "INSRNC_COMPANY_SIMULATION_ID";
         public static final String FIELD_INSURANCE_SIMULATION_ID = "INSURANCE_SIMULATION_ID";
+        public static final String FIELD_CUSTOMER_SIMULATION_DATE = "CUSTOMER_SIMULATION_DATE";
+        public static final String FIELD_CUST_SIMULATION_EXPIRED_DATE = "CUST_SIMULATION_EXPIRED_DATE";
+        public static final String FIELD_BANK_FACTOR_TYPE = "BANK_FACTOR_TYPE";
+        public static final String FIELD_BANK_FACTOR_AMOUNT = "BANK_FACTOR_AMOUNT";
+        public static final String FIELD_REGISTRY_SITUATION_TYPE = "REGISTRY_SITUATION_TYPE";
+        public static final String FIELD_BANK_FACTOR_PER = "BANK_FACTOR_PER";
+
 
         private InsuranceSimulation(){}
 
@@ -47,7 +54,12 @@ public class ConstantsUtil {
         public static final String QUERY_DELETE_QUOTATION_MOD="PISD.DELETE_QUOTATION_MOD";
         public static final String QUERY_GET_PRODUCT_INFO_BY_INTERNAL_ID_AND_PRODUCT_TYPE = "PISD.GET_PRODUCT_INFO_BY_INTERNAL_ID_AND_PRODUCT_TYPE";
         public static final String QUERY_GET_QUOTATION_INFO_BY_INTERNAL_ID= "PISD.GET_QUOTATION_INFORMATION_BY_ID";
+        public static final String INSERT_INSRNC_SIMLT_PRD_ENTERPRICE="PISD.INSERT_INSRNC_SIMLT_PRD_ENTERPRISE";
+        public static final String INSERT_SIMULATE_ENTERPRICE = "PISD.INSERT_SIMULATE_ENTERPRISE";
+        public static final String INSERT_INSURANCE_QUOTATION = "PISD.INSERT_INSURANCE_QUOTATION";
 
+        public static final String GET_MODALITY_TYPE_BY_PRODUCT_ID = "PISD.GET_MODALITY_TYPE_BY_PRODUCT_ID";
+        public static final String FIELD_Q_PISD_SIMULATION_ID0_NEXTVAL="NEXTVAL";
 
         private QueriesName(){}
 
@@ -114,6 +126,10 @@ public class ConstantsUtil {
         public static final String CONTACT_EMAIL_DESC = "CONTACT_EMAIL_DESC";
         public static final String CUSTOMER_PHONE_DESC = "CUSTOMER_PHONE_DESC";
         public static final String DATA_TREATMENT_IND_TYPE = "DATA_TREATMENT_IND_TYPE";
+        public static final String FIELD_CAMPAIGN_FACTOR_TYPE = "CAMPAIGN_FACTOR_TYPE";
+        public static final String FIELD_CAMPAIGN_OFFER_1_AMOUNT = "CAMPAIGN_OFFER_1_AMOUNT";
+        public static final String FIELD_CAMPAIGN_FACTOR_PER = "CAMPAIGN_FACTOR_PER";
+
 
         private QuotationModMap(){}
 
@@ -126,6 +142,11 @@ public class ConstantsUtil {
         public static final String QUOTE_DATE = "QUOTE_DATE";
         public static final String POLICY_QUOTA_END_VALIDITY_DATE = "POLICY_QUOTA_END_VALIDITY_DATE";
         public static final String CUSTOMER_ID = "CUSTOMER_ID";
+        public static final String FIELD_INSURED_CUSTOMER_NAME = "INSURED_CUSTOMER_NAME";
+        public static final String FIELD_CLIENT_LAST_NAME = "CLIENT_LAST_NAME";
+        public static final String FIELD_CUSTOMER_SEGMENT_NAME = "CUSTOMER_SEGMENT_NAME";
+        public static final String FIELD_POLICY_QUOTA_STATUS_TYPE = "POLICY_QUOTA_STATUS_TYPE";
+        public static final String FIELD_RFQ_INTERNAL_ID = "RFQ_INTERNAL_ID";
         public static final String PERSONAL_DOC_TYPE = "PERSONAL_DOC_TYPE";
         public static final String PARTICIPANT_PERSONAL_ID = "PARTICIPANT_PERSONAL_ID";
         public static final String LAST_CHANGE_BRANCH_ID = "LAST_CHANGE_BRANCH_ID";
