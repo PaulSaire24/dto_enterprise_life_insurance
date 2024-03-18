@@ -38,6 +38,19 @@ public class ConstantsUtil {
 
     }
 
+    public static final class InsuranceQuoteCoLife{
+        public static final String FIELD_INCOMES_PAYROLL_AMOUNT = "INCOMES_PAYROLL_AMOUNT";
+        public static final String FIELD_CURRENCY_ID = "CURRENCY_ID";
+        public static final String FIELD_PAYROLL_EMPLOYEE_NUMBER = "PAYROLL_EMPLOYEE_NUMBER";
+        public static final String FIELD_EMPLOYEE_EMAIL_NAME = "EMPLOYEE_EMAIL_NAME";
+        public static final String FIELD_AGE_EMPLOYEES_IND_TYPE = "YEARS_OLD_18_65_EMPLOYEES_IND_TYPE";
+
+
+        private InsuranceQuoteCoLife(){}
+
+    }
+
+
     public static final class QueriesName{
         public static final String QUERY_SELECT_PRODUCT_BY_PRODUCT_TYPE = "PISD.SELECT_PRODUCT_BY_PRODUCT_TYPE";
         public static final String QUERY_GET_COMPANY_QUOTA_ID_AND_PRODUCT_SHORT_DESC = "PISD.GET_RIMAC_QUOT_AND_PRODUCT_INFO_BY_POLICY_QUOTA_INTERNAL_ID";
@@ -54,10 +67,11 @@ public class ConstantsUtil {
         public static final String QUERY_DELETE_QUOTATION_MOD="PISD.DELETE_QUOTATION_MOD";
         public static final String QUERY_GET_PRODUCT_INFO_BY_INTERNAL_ID_AND_PRODUCT_TYPE = "PISD.GET_PRODUCT_INFO_BY_INTERNAL_ID_AND_PRODUCT_TYPE";
         public static final String QUERY_GET_QUOTATION_INFO_BY_INTERNAL_ID= "PISD.GET_QUOTATION_INFORMATION_BY_ID";
+        public static final String QUERY_INSERT_INSRNC_QUOTE_CO_LIFE= "PISD.INSERT_INSRNC_QUOTE_CO_LIFE";
+        public static final String QUERY_DELETE_INSRNC_QUOTE_CO_LIFE= "PISD.DELETE_INSRNC_QUOTE_CO_LIFE";
         public static final String INSERT_INSRNC_SIMLT_PRD_ENTERPRICE="PISD.INSERT_INSRNC_SIMLT_PRD_ENTERPRISE";
         public static final String INSERT_SIMULATE_ENTERPRICE = "PISD.INSERT_SIMULATE_ENTERPRISE";
         public static final String INSERT_INSURANCE_QUOTATION = "PISD.INSERT_INSURANCE_QUOTATION";
-
         public static final String GET_MODALITY_TYPE_BY_PRODUCT_ID = "PISD.GET_MODALITY_TYPE_BY_PRODUCT_ID";
         public static final String FIELD_Q_PISD_SIMULATION_ID0_NEXTVAL="NEXTVAL";
 
