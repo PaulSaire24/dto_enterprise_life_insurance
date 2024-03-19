@@ -8,7 +8,7 @@ public class InsuranceQuoteCoLifeDAO {
     private String insuranceModalityType;
     private BigDecimal incomesPayrollAmount;
     private String currencyId;
-    private int payrollEmployeeNumber;
+    private BigDecimal payrollEmployeeNumber;
     private String employeeEmailName;
     private int yearsOldEmployeesIndType;
     private String creationUserId;
@@ -56,11 +56,11 @@ public class InsuranceQuoteCoLifeDAO {
         this.currencyId = currencyId;
     }
 
-    public int getPayrollEmployeeNumber() {
+    public BigDecimal getPayrollEmployeeNumber() {
         return payrollEmployeeNumber;
     }
 
-    public void setPayrollEmployeeNumber(int payrollEmployeeNumber) {
+    public void setPayrollEmployeeNumber(BigDecimal payrollEmployeeNumber) {
         this.payrollEmployeeNumber = payrollEmployeeNumber;
     }
 
@@ -148,7 +148,7 @@ public class InsuranceQuoteCoLifeDAO {
             return Builder.this;
         }
 
-        public Builder withPayrollEmployeeNumber(int payrollEmployeeNumber) {
+        public Builder withPayrollEmployeeNumber(BigDecimal payrollEmployeeNumber) {
             insuranceQuoteCoLifeDAO.payrollEmployeeNumber = payrollEmployeeNumber;
             return Builder.this;
         }
