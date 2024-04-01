@@ -22,5 +22,11 @@ public class InsuranceProductDAO {
     public void setProductShortDesc(String productShortDesc) {
         this.productShortDesc = productShortDesc;
     }
-
+    @Override
+    public String toString() {
+        return "InsuranceProductDAO{" +
+                "insuranceProductId=" + insuranceProductId +
+                ", productShortDesc=" + productShortDesc +
+                '}';
+    }
 }

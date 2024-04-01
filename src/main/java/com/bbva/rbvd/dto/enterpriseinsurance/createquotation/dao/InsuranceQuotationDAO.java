@@ -10,4 +10,10 @@ public class InsuranceQuotationDAO {
     public void setPolicyQuotaInternalId(String policyQuotaInternalId) {
         this.policyQuotaInternalId = policyQuotaInternalId;
     }
+    @Override
+    public String toString() {
+        return "ValidityPeriodDTO{" +
+                "startDate=" + policyQuotaInternalId +
+                '}';
+    }
 }

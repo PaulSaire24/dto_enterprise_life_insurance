@@ -28,4 +28,12 @@ public class InsuranceModalityDAO {
     public void setInsuranceModalityName(String insuranceModalityName) {
         this.insuranceModalityName = insuranceModalityName;
     }
+    @Override
+    public String toString() {
+        return "InsuranceModalityDAO{" +
+                "insuranceCompanyModalityId=" + insuranceCompanyModalityId +
+                ", insuranceModalityType=" + insuranceModalityType +
+                ", insuranceModalityName=" + insuranceModalityName +
+                '}';
+    }
 }
