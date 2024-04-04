@@ -3,19 +3,10 @@ package com.bbva.rbvd.dto.enterpriseinsurance.modifyquotation.dao;
 import java.math.BigDecimal;
 
 public class InsuranceProductDAO {
-    private String insuranceCompanySimulationId;
     private BigDecimal insuranceProductId;
     private String productShortDesc;
     private String insuranceProductType;
     private String insuranceBusinessName;
-
-    public String getInsuranceCompanySimulationId() {
-        return insuranceCompanySimulationId;
-    }
-
-    public void setInsuranceCompanySimulationId(String insuranceCompanySimulationId) {
-        this.insuranceCompanySimulationId = insuranceCompanySimulationId;
-    }
 
     public BigDecimal getInsuranceProductId() {
         return insuranceProductId;
