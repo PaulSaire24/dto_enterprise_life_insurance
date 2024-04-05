@@ -2,7 +2,6 @@ package com.bbva.rbvd.dto.enterpriseinsurance.createquotation.rimac;
 
 import com.bbva.rbvd.dto.enterpriseinsurance.commons.rimac.FinancingBO;
 import com.bbva.rbvd.dto.enterpriseinsurance.commons.rimac.ParticularDataBO;
-import com.bbva.rbvd.dto.enterpriseinsurance.commons.rimac.PlanBO;
 import org.codehaus.jackson.annotate.JsonIgnoreProperties;
 
 import java.util.List;
@@ -11,7 +10,7 @@ import java.util.List;
 public class QuotationResponseBO {
     private String producto;
     private String moneda;
-    private List<PlanBO> planes;
+    private List<Long> planes;
     private List<QuotationBO> cotizaciones;
     private List<ParticularDataBO> datosParticulares;
     private FinancingBO financiamiento;
@@ -24,6 +23,13 @@ public class QuotationResponseBO {
         this.producto = producto;
     }
 
+    public List<Long> getPlanes() {
+        return planes;
+    }
+
+    public void setPlanes(List<Long> planes) {
+        this.planes = planes;
+    }
     public String getMoneda() {
         return moneda;
     }
@@ -31,15 +37,6 @@ public class QuotationResponseBO {
     public void setMoneda(String moneda) {
         this.moneda = moneda;
     }
-
-    public List<PlanBO> getPlanes() {
-        return planes;
-    }
-
-    public void setPlanes(List<PlanBO> planes) {
-        this.planes = planes;
-    }
-
     public List<QuotationBO> getCotizaciones() {
         return cotizaciones;
     }

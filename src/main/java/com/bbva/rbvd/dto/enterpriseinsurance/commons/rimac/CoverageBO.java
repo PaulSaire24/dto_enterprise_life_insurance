@@ -22,6 +22,7 @@ public class CoverageBO {
     private Long edadMinima;
     private Long edadMaxima;
     private Long edadPermanecia;
+    private Long numeroSueldos;
 
     public Long getCobertura() {
         return cobertura;
@@ -127,6 +128,14 @@ public class CoverageBO {
         this.porcentajeSeleccionado = porcentajeSeleccionado;
     }
 
+    public Long getNumeroSueldos() {
+        return numeroSueldos;
+    }
+
+    public void setNumeroSueldos(Long numeroSueldos) {
+        this.numeroSueldos = numeroSueldos;
+    }
+
     public String getObservacionCobertura() {
         return observacionCobertura;
     }
@@ -161,6 +170,7 @@ public class CoverageBO {
         sb.append(", edadMinima='").append(edadMinima).append('\'');
         sb.append(", edadMaxima='").append(edadMaxima).append('\'');
         sb.append(", edadPermanecia='").append(edadPermanecia).append('\'');
+        sb.append(", numeroSueldos='").append(numeroSueldos).append('\'');
         sb.append('}');
         return sb.toString();
     }
