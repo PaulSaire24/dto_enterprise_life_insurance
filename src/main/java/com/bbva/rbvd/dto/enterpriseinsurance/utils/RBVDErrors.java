@@ -9,7 +9,8 @@ public enum RBVDErrors {
     ERROR_QUOTATION_SAVING("RBVD01020029",false, "No se pudo registrar la cotización en la tabla [PISD.T_PISD_INSURANCE_QUOTATION]"),
     ERROR_QUOTATION_MOD_SAVING("RBVD01020030",false, "No se pudo registrar la cotización en la tabla [PISD.T_PISD_INSURANCE_QUOTATION_MOD]"),
     ERROR_CALLING_SELECT_PLAN("RBVD01020031",false, "Error al Llamar al Servicio de Seleccionar Plan de Rimac"),
-    ERROR_TIMEOUT_RESPONSE("RBVD01020044", false,"Se excedió en el tiempo de espera del servicio de Seleccionar Plan de Rimac");
+    ERROR_TIMEOUT_RESPONSE("RBVD01020044", false,"Se excedió en el tiempo de espera del servicio de Seleccionar Plan de Rimac"),
+    ERROR_CALL_QUOTATION_DETAIL_API("RBVD00000174",false,"Error al llamar al servicio detalle cotizacion de Rimac");
 
     private final String adviceCode;
     private final boolean rollback;

@@ -10,4 +10,5 @@ public class InsuranceEnterpriseInputBO {
     public void setPayload(QuotationInputBO payload) {
         this.payload = payload;
     }
+
 }
