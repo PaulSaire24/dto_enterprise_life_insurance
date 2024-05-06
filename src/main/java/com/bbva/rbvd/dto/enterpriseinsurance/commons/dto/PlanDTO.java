@@ -4,18 +4,18 @@ import java.util.List;
 
 public class PlanDTO extends  CommonFieldsDTO{
 
-    private AmountDTO totalInstallment;
+    private TotalInstallmentDTO totalInstallment;
     private List<InstallmentPlansDTO> installmentPlans;
     private List<CoverageDTO> coverages;
     private List<DescriptionDTO> exclusions;
     private List<DescriptionDTO> benefits;
 
 
-    public AmountDTO getTotalInstallment() {
+    public TotalInstallmentDTO getTotalInstallment() {
         return totalInstallment;
     }
 
-    public void setTotalInstallment(AmountDTO totalInstallment) {
+    public void setTotalInstallment(TotalInstallmentDTO totalInstallment) {
         this.totalInstallment = totalInstallment;
     }
 
