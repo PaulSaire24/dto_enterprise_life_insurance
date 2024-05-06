@@ -2,6 +2,7 @@ package com.bbva.rbvd.dto.enterpriseinsurance.commons.dto;
 
 public class CoverageDTO extends DescriptionDTO {
     private DescriptionDTO coverageType;
+    private AmountDTO insuredAmount;
 
     public DescriptionDTO getCoverageType() {
         return coverageType;
@@ -11,6 +12,14 @@ public class CoverageDTO extends DescriptionDTO {
         this.coverageType = coverageType;
     }
 
+    public AmountDTO getInsuredAmount() {
+        return insuredAmount;
+    }
+
+    public void setInsuredAmount(AmountDTO insuredAmount) {
+        this.insuredAmount = insuredAmount;
+    }
+
     @Override
     public String toString() {
         return "CoverageDTO{" +
@@ -18,6 +27,7 @@ public class CoverageDTO extends DescriptionDTO {
                 ", name='" + this.getName() + '\''+
                 ", description='"+this.getDescription()+'\''+
                 ", coverageType=" + coverageType +
+                ", insuredAmount=" + insuredAmount +
                 '}';
     }
 }
