@@ -104,7 +104,7 @@ public class CreateQuotationDTO extends CommonFieldsDTO {
                 ", quotationDate=" + quotationDate +
                 ", employees=" + employees +
                 ", product=" + product +
-                ", contactDetails=" + contactDetails +
+                ", contactDetails=" + contactDetails +'\''+
                 ", validityPeriod=" + validityPeriod +
                 ", businessAgent=" + businessAgent +
                 ", participants=" + participants +
