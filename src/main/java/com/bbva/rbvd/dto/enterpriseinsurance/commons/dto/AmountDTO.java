@@ -8,6 +8,7 @@ public class AmountDTO implements Serializable {
 
     private Double amount;
     private String currency;
+    private DescriptionDTO period;
 
 
     public Double getAmount() {
@@ -26,11 +27,20 @@ public class AmountDTO implements Serializable {
         this.currency = currency;
     }
 
+    public DescriptionDTO getPeriod() {
+        return period;
+    }
+
+    public void setPeriod(DescriptionDTO period) {
+        this.period = period;
+    }
+
     @Override
     public String toString() {
         final StringBuilder sb = new StringBuilder("AmountDTO{");
         sb.append("amount=").append(amount);
         sb.append(", currency='").append(currency).append('\'');
+        sb.append(", period='").append(period);
         sb.append('}');
         return sb.toString();
     }

@@ -15,6 +15,7 @@ public class CreateQuotationDTO extends CommonFieldsDTO {
     private DescriptionDTO businessAgent;
     private List<ParticipantDTO> participants;
     private DescriptionDTO status;
+    private AmountDTO insuredAmount;
 
     public String getQuotationReference() {
         return quotationReference;
@@ -88,6 +89,14 @@ public class CreateQuotationDTO extends CommonFieldsDTO {
         this.status = status;
     }
 
+    public AmountDTO getInsuredAmount() {
+        return insuredAmount;
+    }
+
+    public void setInsuredAmount(AmountDTO insuredAmount) {
+        this.insuredAmount = insuredAmount;
+    }
+
     @Override
     public String toString() {
         return "ModifyQuotationDTO{" +
@@ -95,12 +104,13 @@ public class CreateQuotationDTO extends CommonFieldsDTO {
                 ", quotationDate=" + quotationDate +
                 ", employees=" + employees +
                 ", product=" + product +
-                ", contactDetails=" + contactDetails +
+                ", contactDetails=" + contactDetails +'\''+
                 ", validityPeriod=" + validityPeriod +
                 ", businessAgent=" + businessAgent +
                 ", participants=" + participants +
                 ", quotationReference='" + quotationReference + '\'' +
                 ", status=" + status +
+                ", insuredAmount=" + insuredAmount +
                 '}';
     }
 }
