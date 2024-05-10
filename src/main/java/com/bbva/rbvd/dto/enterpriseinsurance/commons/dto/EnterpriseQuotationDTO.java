@@ -15,6 +15,7 @@ public class EnterpriseQuotationDTO extends CommonFieldsDTO {
     private DescriptionDTO status;
     private PaymentMethodDTO paymentMethod;
     private BankDTO bank;
+    private AmountDTO insuredAmount;
 
 
     public LocalDate getQuotationDate() {
@@ -105,6 +106,14 @@ public class EnterpriseQuotationDTO extends CommonFieldsDTO {
         this.bank = bank;
     }
 
+    public AmountDTO getInsuredAmount() {
+        return insuredAmount;
+    }
+
+    public void setInsuredAmount(AmountDTO insuredAmount) {
+        this.insuredAmount = insuredAmount;
+    }
+
     @Override
     public String toString() {
         return "EnterpriseQuotationDTO{" +
@@ -121,6 +130,7 @@ public class EnterpriseQuotationDTO extends CommonFieldsDTO {
                 ", status=" + status +
                 ", paymentMethod='" + paymentMethod + '\'' +
                 ", bank=" + bank +
+                ",insuredAmount=" + insuredAmount +
                 '}';
     }
 }
