@@ -18,6 +18,9 @@ public class PlanBO extends CommonsBO{
     private List<ParticularDataBO> datosParticulares;
     private List<AssistanceBO> asistencias;
     private String moneda;
+    private BigDecimal montoIGV;
+    private BigDecimal tasa;
+    private BigDecimal remuneracionMaximaAsegurable;
 
 
     public Long getPlan() {
@@ -92,19 +95,46 @@ public class PlanBO extends CommonsBO{
         this.asistencias = asistencias;
     }
 
+    public BigDecimal getMontoIGV() {
+        return montoIGV;
+    }
+
+    public void setMontoIGV(BigDecimal montoIGV) {
+        this.montoIGV = montoIGV;
+    }
+
+    public BigDecimal getTasa() {
+        return tasa;
+    }
+
+    public void setTasa(BigDecimal tasa) {
+        this.tasa = tasa;
+    }
+
+    public BigDecimal getRemuneracionMaximaAsegurable() {
+        return remuneracionMaximaAsegurable;
+    }
+
+    public void setRemuneracionMaximaAsegurable(BigDecimal remuneracionMaximaAsegurable) {
+        this.remuneracionMaximaAsegurable = remuneracionMaximaAsegurable;
+    }
+
     @Override
     public String toString() {
-        final StringBuilder sb = new StringBuilder("PlanBO{");
-        sb.append("plan=").append(plan);
-        sb.append(", descripcionPlan='").append(descripcionPlan).append('\'');
-        sb.append(", primaNeta=").append(primaNeta);
-        sb.append(", primaBruta=").append(primaBruta);
-        sb.append(", financiamientos=").append(financiamientos);
-        sb.append(", coberturas=").append(coberturas);
-        sb.append(", datosParticulares=").append(datosParticulares);
-        sb.append(", asistencias=").append(asistencias);
-        sb.append(", moneda=").append(moneda);
-        sb.append('}');
-        return sb.toString();
+        return "PlanBO{" +
+                "plan=" + plan +
+                ", descripcionPlan='" + descripcionPlan + '\'' +
+                ", primaNeta=" + primaNeta +
+                ", primaBruta=" + primaBruta +
+                ", financiamientos=" + financiamientos +
+                ", coberturas=" + coberturas +
+                ", datosParticulares=" + datosParticulares +
+                ", asistencias=" + asistencias +
+                ", moneda='" + moneda + '\'' +
+                ", montoIGV=" + montoIGV +
+                ", tasa=" + tasa +
+                ", remuneracionMaximaAsegurable=" + remuneracionMaximaAsegurable +
+                '}';
     }
+
 }

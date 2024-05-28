@@ -1,5 +1,7 @@
 package com.bbva.rbvd.dto.enterpriseinsurance.getquotation.dao;
 
+import java.math.BigDecimal;
+
 public class QuotationDAO {
 
     private String quoteDate;
@@ -16,6 +18,10 @@ public class QuotationDAO {
     private String contactEmailDesc;
     private String customerPhoneDesc;
     private String rfqInternalId;
+    private BigDecimal payrollAmount;
+    private String payrollCurrencyId;
+    private BigDecimal employeeNumber;
+    private String employeesIndType;
 
 
     public String getQuoteDate() {
@@ -128,5 +134,61 @@ public class QuotationDAO {
 
     public void setRfqInternalId(String rfqInternalId) {
         this.rfqInternalId = rfqInternalId;
+    }
+
+    public BigDecimal getPayrollAmount() {
+        return payrollAmount;
+    }
+
+    public void setPayrollAmount(BigDecimal payrollAmount) {
+        this.payrollAmount = payrollAmount;
+    }
+
+    public String getPayrollCurrencyId() {
+        return payrollCurrencyId;
+    }
+
+    public void setPayrollCurrencyId(String payrollCurrencyId) {
+        this.payrollCurrencyId = payrollCurrencyId;
+    }
+
+    public BigDecimal getEmployeeNumber() {
+        return employeeNumber;
+    }
+
+    public void setEmployeeNumber(BigDecimal employeeNumber) {
+        this.employeeNumber = employeeNumber;
+    }
+
+    public String getEmployeesIndType() {
+        return employeesIndType;
+    }
+
+    public void setEmployeesIndType(String employeesIndType) {
+        this.employeesIndType = employeesIndType;
+    }
+
+    @Override
+    public String toString() {
+        return "QuotationDAO{" +
+                "quoteDate='" + quoteDate + '\'' +
+                ", insuranceModalityType='" + insuranceModalityType + '\'' +
+                ", insuranceProductType='" + insuranceProductType + '\'' +
+                ", insuranceModalityName='" + insuranceModalityName + '\'' +
+                ", insurModalityDesc='" + insurModalityDesc + '\'' +
+                ", insuranceCompanyModalityId='" + insuranceCompanyModalityId + '\'' +
+                ", userAuditId='" + userAuditId + '\'' +
+                ", customerId='" + customerId + '\'' +
+                ", policyQuotaStatusType='" + policyQuotaStatusType + '\'' +
+                ", personalDocType='" + personalDocType + '\'' +
+                ", participantPersonalId='" + participantPersonalId + '\'' +
+                ", contactEmailDesc='" + contactEmailDesc + '\'' +
+                ", customerPhoneDesc='" + customerPhoneDesc + '\'' +
+                ", rfqInternalId='" + rfqInternalId + '\'' +
+                ", payrollAmount=" + payrollAmount +
+                ", payrollCurrencyId='" + payrollCurrencyId + '\'' +
+                ", employeeNumber=" + employeeNumber +
+                ", employeesIndType='" + employeesIndType + '\'' +
+                '}';
     }
 }
