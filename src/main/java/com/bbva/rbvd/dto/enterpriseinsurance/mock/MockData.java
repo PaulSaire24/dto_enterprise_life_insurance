@@ -52,4 +52,11 @@ public class MockData {
                 ResponseQuotationDetailBO.class);
     }
 
+    public ResponseQuotationDetailBO getResponseNormalQuotationDetailRimac() throws IOException{
+        return objectMapperHelper.readValue(
+                Thread.currentThread().getContextClassLoader().getResourceAsStream(
+                        "com.bbva.rbvd.dto.enterpriseinsurance.mock/modifyQuotation/detail/responseNormalQuotationRimacMock.json"),
+                ResponseQuotationDetailBO.class);
+    }
+
 }
