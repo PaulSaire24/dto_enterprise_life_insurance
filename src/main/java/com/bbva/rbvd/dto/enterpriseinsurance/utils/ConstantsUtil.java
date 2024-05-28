@@ -44,6 +44,8 @@ public class ConstantsUtil {
         public static final String FIELD_PAYROLL_EMPLOYEE_NUMBER = "PAYROLL_EMPLOYEE_NUMBER";
         public static final String FIELD_EMPLOYEE_EMAIL_NAME = "EMPLOYEE_EMAIL_NAME";
         public static final String FIELD_AGE_EMPLOYEES_IND_TYPE = "YEARS_OLD_18_65_EMPLOYEES_IND_TYPE";
+        public static final String PAYROLL_CURRENCY_ID = "PAYROLL_CURRENCY_ID";
+        public static final String EMPLOYEES_IND_TYPE = "EMPLOYEES_IND_TYPE";
 
 
         private InsuranceQuoteCoLife(){}
@@ -69,8 +71,10 @@ public class ConstantsUtil {
         public static final String QUERY_INSERT_INSRNC_QUOTE_CO_LIFE= "PISD.INSERT_INSRNC_QUOTE_CO_LIFE";
         public static final String QUERY_DELETE_INSRNC_QUOTE_CO_LIFE= "PISD.DELETE_INSRNC_QUOTE_CO_LIFE";
         public static final String QUERY_VALIDATE_IF_INSRNC_QUOTE_CO_LIFE_EXISTS= "PISD.VALIDATE_IF_QUOTE_CO_LIFE_EXISTS";
-        public static final String QUERY_FIND_PAYMENTMETHOD_FROM_QUOTATION = "PISD.FIND_PAYMENTMETHOD_FROM_QUOTATION";
+        public static final String QUERY_FIND_PAYMENTMETHOD_FROM_QUOTATION = "PISD.FIND_PAYMENTDATA_FROM_QUOTATION";
         public static final String QUERY_FIND_ENTERPRISE_EMPLOYEE_FROM_QUOTATION = "PISD.FIND_ENTERPRISE_EMPLOYEE_FROM_QUOTATION";
+        public static final String QUERY_FIND_QUOTATION_DETAIL_BY_QUOTATIONID = "PISD.FIND_QUOTATION_DETAIL_BY_QUOTATIONID";
+        public static final String QUERY_UPDATE_PREMIUM_AMOUNT_IN_NORMAL_QUOTATION = "PISD.UPDATE_PREMIUM_AMOUNT_IN_NORMAL_QUOTATION";
 
         public static final String INSERT_INSRNC_SIMLT_PRD_ENTERPRICE="PISD.INSERT_INSRNC_SIMLT_PRD_ENTERPRISE";
         public static final String INSERT_SIMULATE_ENTERPRICE = "PISD.INSERT_SIMULATE_ENTERPRISE";
@@ -135,6 +139,9 @@ public class ConstantsUtil {
     public static final class PaymentMethod{
         public static final String METHOD_TYPE_DIRECT_DEBIT = "DIRECT_DEBIT";
         public static final String METHOD_TYPE_CREDIT_CARD = "CREDIT_CARD";
+        public static final String METHOD_TYPE_SAVINGS_ACCOUNT = "SAVINGS_ACCOUNT";
+        public static final String METHOD_TYPE_CURRENT_ACCOUNT = "CURRENT_ACCOUNT";
+        public static final String METHPD_TYPE_DEBIT_CARD = "DEBIT_CARD";
         public static final String PRODUCT_ID_CARD = "CARD";
         public static final String PRODUCT_ID_ACCOUNT = "ACCOUNT";
 
@@ -199,6 +206,9 @@ public class ConstantsUtil {
         public static final String FIELD_PAYMENT_METHOD_TYPE = "PAYMENT_METHOD_TYPE";
         public static final String FIELD_INSURANCE_CONTRACT_ENTITY_ID = "INSURANCE_CONTRACT_ENTITY_ID";
         public static final String FIELD_CONTRACT_MANAGER_BRANCH_ID = "CONTRACT_MANAGER_BRANCH_ID";
+        public static final String FIELD_INSURANCE_CONTRACT_BRANCH_ID = "INSURANCE_CONTRACT_BRANCH_ID";
+        public static final String FIELD_INSURED_AMOUNT = "INSURED_AMOUNT";
+        public static final String FIELD_CURRENCY_ID = "CURRENCY_ID";
     }
 
 
