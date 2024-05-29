@@ -33,6 +33,8 @@ public class ConstantsUtil {
         public static final String FIELD_INSURANCE_PRODUCT_ID = "INSURANCE_PRODUCT_ID";
         public static final String FIELD_INSURANCE_MODALITY_TYPE = "INSURANCE_MODALITY_TYPE";
         public static final String FIELD_SALE_CHANNEL_ID = "SALE_CHANNEL_ID";
+        public static final String FIELD_INSURANCE_MODALITY_NAME = "INSURANCE_MODALITY_NAME";
+        public static final String FIELD_INSUR_MODALITY_DESC = "INSUR_MODALITY_DESC";
 
         private InsurancePrdModality(){}
 
@@ -114,6 +116,7 @@ public class ConstantsUtil {
         public static final String PARTICIPANT_TYPE_HOLDER = "HOLDER";
         public static final String COVERAGE_TYPE_PREFIX = "COVERAGE_TYPE_";
         public static final String COVERAGE_NAME_SUFFIX = "_COVERAGE_NAME";
+        public static final String FORMAT_DATE = "yyyy-MM-dd";
 
         private StringConstants(){}
 
