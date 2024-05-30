@@ -73,7 +73,8 @@ public class ConstantsUtil {
         public static final String QUERY_INSERT_INSRNC_QUOTE_CO_LIFE= "PISD.INSERT_INSRNC_QUOTE_CO_LIFE";
         public static final String QUERY_DELETE_INSRNC_QUOTE_CO_LIFE= "PISD.DELETE_INSRNC_QUOTE_CO_LIFE";
         public static final String QUERY_VALIDATE_IF_INSRNC_QUOTE_CO_LIFE_EXISTS= "PISD.VALIDATE_IF_QUOTE_CO_LIFE_EXISTS";
-        public static final String QUERY_FIND_PAYMENTMETHOD_FROM_QUOTATION = "PISD.FIND_PAYMENTDATA_FROM_QUOTATION";
+        public static final String QUERY_FIND_PAYMENTMETHOD_FROM_QUOTATIONID = "PISD.FIND_PAYMENTDATA_FROM_QUOTATIONID";
+        public static final String QUERY_FIND_PAYMENTMETHOD_FROM_QUOTATIONREFERENCE = "PISD.FIND_PAYMENTDATA_FROM_QUOTATIONREFERENCE";
         public static final String QUERY_FIND_ENTERPRISE_EMPLOYEE_FROM_QUOTATION = "PISD.FIND_ENTERPRISE_EMPLOYEE_FROM_QUOTATION";
         public static final String QUERY_FIND_QUOTATION_DETAIL_BY_QUOTATIONID = "PISD.FIND_QUOTATION_DETAIL_BY_QUOTATIONID";
         public static final String QUERY_UPDATE_PREMIUM_AMOUNT_IN_NORMAL_QUOTATION = "PISD.UPDATE_PREMIUM_AMOUNT_IN_NORMAL_QUOTATION";
@@ -117,6 +118,11 @@ public class ConstantsUtil {
         public static final String COVERAGE_TYPE_PREFIX = "COVERAGE_TYPE_";
         public static final String COVERAGE_NAME_SUFFIX = "_COVERAGE_NAME";
         public static final String FORMAT_DATE = "yyyy-MM-dd";
+        public static final String PREFIX_REMUNERATIONS = " remuneraciones";
+        public static final String OTHER_PRODUCT_ID = "OTHER";
+        public static final String CARD_PREFIX_4 = "4";
+        public static final String CARD_PREFIX_5 = "5";
+        public static final String ACCOUNT_PREFIX = "0";
 
         private StringConstants(){}
 
@@ -250,7 +256,6 @@ public class ConstantsUtil {
         private Flags(){}
 
     }
-
 
 
 }
