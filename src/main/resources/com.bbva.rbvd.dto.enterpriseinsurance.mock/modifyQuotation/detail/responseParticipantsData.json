@@ -1,0 +1,44 @@
+[
+  {
+    "participantRoleId": 1,
+    "orderNumber": 1,
+    "personalDocType": "R",
+    "participantPersonalId": "20788177233",
+    "customerId": "00049301"
+  },
+  {
+    "participantRoleId": 3,
+    "orderNumber": 1,
+    "personalDocType": "L",
+    "participantPersonalId": "72638803",
+    "customerId": "97790075"
+  },
+  {
+    "participantRoleId": 3,
+    "orderNumber": 2,
+    "personalDocType": "DNI",
+    "participantPersonalId": "70827355",
+    "customerId": "97788664"
+  },
+  {
+    "participantRoleId": 3,
+    "orderNumber": 3,
+    "personalDocType": "DNI",
+    "participantPersonalId": "88888887",
+    "customerId": "97170064"
+  },
+  {
+    "participantRoleId": 3,
+    "orderNumber": 4,
+    "personalDocType": "DNI",
+    "participantPersonalId": "47474761",
+    "customerId": "98811336"
+  },
+  {
+    "participantRoleId": 7,
+    "orderNumber": 1,
+    "personalDocType": "R",
+    "participantPersonalId": "20788177233",
+    "customerId": "00049301"
+  }
+]

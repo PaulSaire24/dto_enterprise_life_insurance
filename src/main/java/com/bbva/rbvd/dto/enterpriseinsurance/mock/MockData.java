@@ -1,10 +1,13 @@
 package com.bbva.rbvd.dto.enterpriseinsurance.mock;
 
 import com.bbva.rbvd.dto.enterpriseinsurance.commons.dto.EnterpriseQuotationDTO;
+import com.bbva.rbvd.dto.enterpriseinsurance.getquotation.dao.InsrncParticipantDAO;
 import com.bbva.rbvd.dto.enterpriseinsurance.getquotation.rimac.ResponseQuotationDetailBO;
 import com.bbva.rbvd.dto.enterpriseinsurance.modifyquotation.rimac.SelectPlanBO;
 
 import java.io.IOException;
+import java.util.Arrays;
+import java.util.List;
 
 public class MockData {
     private static final MockData INSTANCE = new MockData();
@@ -57,6 +60,13 @@ public class MockData {
                 Thread.currentThread().getContextClassLoader().getResourceAsStream(
                         "com.bbva.rbvd.dto.enterpriseinsurance.mock/modifyQuotation/detail/responseNormalQuotationRimacMock.json"),
                 ResponseQuotationDetailBO.class);
+    }
+
+    public List<InsrncParticipantDAO> getResponseParticipantsData() throws IOException{
+        return Arrays.asList(objectMapperHelper.readValue(
+                Thread.currentThread().getContextClassLoader().getResourceAsStream(
+                        "com.bbva.rbvd.dto.enterpriseinsurance.mock/modifyQuotation/detail/responseParticipantsData.json"),
+                InsrncParticipantDAO[].class));
     }
 
 }
