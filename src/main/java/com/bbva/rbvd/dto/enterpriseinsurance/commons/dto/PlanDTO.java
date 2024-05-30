@@ -9,6 +9,7 @@ public class PlanDTO extends  CommonFieldsDTO{
     private List<CoverageDTO> coverages;
     private List<DescriptionDTO> exclusions;
     private List<DescriptionDTO> benefits;
+    private RateDTO rates;
 
 
     public AmountDTO getTotalInstallment() {
@@ -51,6 +52,14 @@ public class PlanDTO extends  CommonFieldsDTO{
         this.benefits = benefits;
     }
 
+    public RateDTO getRates() {
+        return rates;
+    }
+
+    public void setRates(RateDTO rates) {
+        this.rates = rates;
+    }
+
     @Override
     public String toString() {
         return "PlanDTO{" +
@@ -63,6 +72,7 @@ public class PlanDTO extends  CommonFieldsDTO{
                 ", coverages=" + coverages +
                 ", exclusions=" + exclusions +
                 ", benefits=" + benefits +
+                ", rates=" + rates +
                 '}';
     }
 }
