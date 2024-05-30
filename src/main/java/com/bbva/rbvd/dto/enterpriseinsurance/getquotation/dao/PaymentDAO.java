@@ -11,6 +11,7 @@ public class PaymentDAO {
     private String branch;
     private BigDecimal insuredAmount;
     private String currency;
+    private String accountId;
 
     public String getAutomaticDebitIndicatorType() {
         return automaticDebitIndicatorType;
@@ -68,6 +69,14 @@ public class PaymentDAO {
         this.currency = currency;
     }
 
+    public String getAccountId() {
+        return accountId;
+    }
+
+    public void setAccountId(String accountId) {
+        this.accountId = accountId;
+    }
+
     @Override
     public String toString() {
         return "PaymentDAO{" +
@@ -78,6 +87,7 @@ public class PaymentDAO {
                 ", branch='" + branch + '\'' +
                 ", insuredAmount=" + insuredAmount +
                 ", currency='" + currency + '\'' +
+                ", accountId='" + accountId + '\'' +
                 '}';
     }
 }
