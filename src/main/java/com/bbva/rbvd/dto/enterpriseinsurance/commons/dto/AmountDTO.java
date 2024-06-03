@@ -9,6 +9,7 @@ public class AmountDTO implements Serializable {
     private Double amount;
     private String currency;
     private DescriptionDTO period;
+    private ExchangeRateDTO exchangeRate;
 
 
     public Double getAmount() {
@@ -35,13 +36,21 @@ public class AmountDTO implements Serializable {
         this.period = period;
     }
 
+    public ExchangeRateDTO getExchangeRate() {
+        return exchangeRate;
+    }
+
+    public void setExchangeRate(ExchangeRateDTO exchangeRate) {
+        this.exchangeRate = exchangeRate;
+    }
+
     @Override
     public String toString() {
-        final StringBuilder sb = new StringBuilder("AmountDTO{");
-        sb.append("amount=").append(amount);
-        sb.append(", currency='").append(currency).append('\'');
-        sb.append(", period='").append(period);
-        sb.append('}');
-        return sb.toString();
+        return "AmountDTO{" +
+                "amount=" + amount +
+                ", currency='" + currency + '\'' +
+                ", period=" + period +
+                ", exchangeRate=" + exchangeRate +
+                '}';
     }
 }
