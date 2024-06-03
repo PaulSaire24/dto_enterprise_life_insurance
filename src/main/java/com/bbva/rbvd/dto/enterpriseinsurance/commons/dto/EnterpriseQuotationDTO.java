@@ -16,6 +16,8 @@ public class EnterpriseQuotationDTO extends CommonFieldsDTO {
     private PaymentMethodDTO paymentMethod;
     private BankDTO bank;
     private AmountDTO insuredAmount;
+    private AmountDTO totalAmount;
+    private AmountDTO totalAmountWithoutTax;
 
 
     public LocalDate getQuotationDate() {
@@ -114,6 +116,22 @@ public class EnterpriseQuotationDTO extends CommonFieldsDTO {
         this.insuredAmount = insuredAmount;
     }
 
+    public AmountDTO getTotalAmount() {
+        return totalAmount;
+    }
+
+    public void setTotalAmount(AmountDTO totalAmount) {
+        this.totalAmount = totalAmount;
+    }
+
+    public AmountDTO getTotalAmountWithoutTax() {
+        return totalAmountWithoutTax;
+    }
+
+    public void setTotalAmountWithoutTax(AmountDTO totalAmountWithoutTax) {
+        this.totalAmountWithoutTax = totalAmountWithoutTax;
+    }
+
     @Override
     public String toString() {
         return "EnterpriseQuotationDTO{" +
@@ -128,9 +146,12 @@ public class EnterpriseQuotationDTO extends CommonFieldsDTO {
                 ", participants=" + participants +
                 ", quotationReference='" + quotationReference + '\'' +
                 ", status=" + status +
-                ", paymentMethod='" + paymentMethod + '\'' +
+                ", paymentMethod=" + paymentMethod +
                 ", bank=" + bank +
-                ",insuredAmount=" + insuredAmount +
+                ", insuredAmount=" + insuredAmount +
+                ", totalAmount=" + totalAmount +
+                ", totalAmountWithoutTax=" + totalAmountWithoutTax +
                 '}';
     }
+
 }
