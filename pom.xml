@@ -9,7 +9,7 @@
 	</parent>
 	<groupId>com.bbva.rbvd.dto.enterpriseinsurance</groupId>
 	<artifactId>RBVDC402</artifactId>
-	<version>0.2.7</version>
+	<version>0.2.8</version>
 	<packaging>bundle</packaging>
 	<description>Deployment unit dto_enterprise_life_insurance of uuaa rbvd</description>
 	<properties>
