@@ -1,13 +1,14 @@
 {
   "payload": {
-    "cotizacion": "70737fb9-6ee7-432e-b93a-773f891b62de",
-    "diasVigencia": "33",
+    "cotizacion": "7c1ca76f-a435-4932-9a40-8538bc592fb8",
+    "diasVigencia": "41",
     "fechaFinVigencia": "2024-06-30",
     "plan": {
       "plan": 534272,
       "descripcionPlan": "PLAN PLATA",
       "moneda": "PEN",
       "remuneracionMaximaAsegurable": 10320.5,
+      "numeroEmpleados": 2,
       "coberturas": [
         {
           "cobertura": 116069,
@@ -48,7 +49,7 @@
         {
           "cobertura": 9581,
           "descripcionCobertura": "Invalidez Total y Permanente por Accidente",
-          "principal": "N",
+          "principal": "S",
           "observacionCobertura": "Invalidez Total y Permanente por Accidente",
           "condicion": "OBL",
           "indSeleccionar": "S",
@@ -60,7 +61,7 @@
         {
           "cobertura": 9675,
           "descripcionCobertura": "Muerte Natural",
-          "principal": "N",
+          "principal": "S",
           "observacionCobertura": "Muerte Natural",
           "condicion": "OBL",
           "indSeleccionar": "S",
@@ -72,7 +73,7 @@
         {
           "cobertura": 9677,
           "descripcionCobertura": "Muerte Accidental",
-          "principal": "N",
+          "principal": "S",
           "observacionCobertura": "Muerte Accidental",
           "condicion": "OBL",
           "indSeleccionar": "S",
