@@ -1,5 +1,6 @@
 package com.bbva.rbvd.dto.enterpriseinsurance.getquotation.rimac;
 
+import com.bbva.rbvd.dto.enterpriseinsurance.commons.rimac.ParticularDataBO;
 import com.bbva.rbvd.dto.enterpriseinsurance.commons.rimac.PlanBO;
 import org.codehaus.jackson.annotate.JsonIgnoreProperties;
 
@@ -15,6 +16,7 @@ public class ResponsePayloadQuotationDetailBO {
     private String producto;
     private String moneda;
     private List<Long> planes;
+    private List<ParticularDataBO> datosParticulares;
 
 
     public String getCotizacion() {
@@ -73,6 +75,13 @@ public class ResponsePayloadQuotationDetailBO {
         this.planes = planes;
     }
 
+    public List<ParticularDataBO> getDatosParticulares() {
+        return datosParticulares;
+    }
+
+    public void setDatosParticulares(List<ParticularDataBO> datosParticulares) {
+        this.datosParticulares = datosParticulares;
+    }
 
     @Override
     public String toString() {
@@ -84,6 +93,7 @@ public class ResponsePayloadQuotationDetailBO {
                 ", producto='" + producto + '\'' +
                 ", moneda='" + moneda + '\'' +
                 ", planes=" + planes +
+                ", datosParticulares=" + datosParticulares +
                 '}';
     }
 }

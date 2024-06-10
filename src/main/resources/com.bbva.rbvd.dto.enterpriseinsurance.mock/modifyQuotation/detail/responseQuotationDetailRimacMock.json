@@ -1,38 +1,38 @@
 {
   "payload": {
-    "cotizacion": "38b61528-42cb-4abb-8a68-58eb3aff01e8",
-    "diasVigencia": "57",
+    "cotizacion": "fa69838f-ab4a-4c41-8f44-10cbc836c02e",
+    "diasVigencia": "51",
     "fechaFinVigencia": "2024-07-31",
     "plan": {
-      "plan": 534273,
-      "descripcionPlan": "PLAN ORO",
+      "plan": 534272,
+      "descripcionPlan": "PLAN PLATA",
       "moneda": "PEN",
-      "primaNeta": 30750.72,
-      "primaBruta": 36285.85,
-      "montoIGV": 5535.13,
+      "primaNeta": 196.08,
+      "primaBruta": 231.37,
+      "montoIGV": 35.29,
       "tasas": [
         {
           "rango": "0",
           "descripcion": "Rango de 18-64 años",
-          "tasa": 0.44
+          "tasa": 0.43
         }
       ],
       "remuneracionMaximaAsegurable": 10320.5,
-      "numeroEmpleados": 50,
-      "sumaSueldoBruto": 582400,
+      "numeroEmpleados": 10,
+      "sumaSueldoBruto": 3800,
       "financiamientos": [
         {
           "financiamiento": 23774,
           "periodicidad": "Anual",
           "numeroCuotas": 1,
-          "montoNetoFraccionado": 30750.72,
-          "montoPago": 36285.85,
+          "montoNetoFraccionado": 196.08,
+          "montoPago": 231.37,
           "fechaInicio": "2024-06-01",
           "fechaFin": "2025-06-01",
           "cuotasFinanciamiento": [
             {
               "cuota": 1,
-              "monto": 36285.85,
+              "monto": 231.37,
               "fechaVencimiento": "2025-06-01",
               "moneda": "PEN"
             }
@@ -41,70 +41,10 @@
       ],
       "coberturas": [
         {
-          "cobertura": 12589,
-          "descripcionCobertura": "Incapacidad Temporal",
+          "cobertura": 116069,
+          "descripcionCobertura": "Gastos Sepelio",
           "principal": "N",
-          "observacionCobertura": "Incapacidad Temporal para el Trabajo por Accidente",
-          "condicion": "OBL",
-          "indSeleccionar": "S",
-          "edadMinima": 18,
-          "edadMaxima": 64,
-          "edadPermanencia": 65,
-          "numeroSueldos": 5
-        },
-        {
-          "cobertura": 13445,
-          "descripcionCobertura": "Desgravamen",
-          "principal": "N",
-          "observacionCobertura": "Desgravamen por saldos deudores",
-          "condicion": "OBL",
-          "indSeleccionar": "S",
-          "edadMinima": 18,
-          "edadMaxima": 64,
-          "edadPermanencia": 65,
-          "numeroSueldos": 5
-        },
-        {
-          "cobertura": 13470,
-          "descripcionCobertura": "Enfermedades Graves",
-          "principal": "N",
-          "observacionCobertura": "Indemnización por enfermedades terminales",
-          "condicion": "OBL",
-          "indSeleccionar": "S",
-          "edadMinima": 18,
-          "edadMaxima": 64,
-          "edadPermanencia": 65,
-          "numeroSueldos": 5
-        },
-        {
-          "cobertura": 13442,
-          "descripcionCobertura": "Traslado al lugar de Origen",
-          "principal": "N",
-          "observacionCobertura": "Traslado al lugar de Origen",
-          "condicion": "OBL",
-          "indSeleccionar": "S",
-          "edadMinima": 18,
-          "edadMaxima": 64,
-          "edadPermanencia": 65,
-          "numeroSueldos": 5
-        },
-        {
-          "cobertura": 10932,
-          "descripcionCobertura": "Renta Familiar Mensual",
-          "principal": "N",
-          "observacionCobertura": "Renta Familiar por accidente",
-          "condicion": "OBL",
-          "indSeleccionar": "S",
-          "edadMinima": 18,
-          "edadMaxima": 64,
-          "edadPermanencia": 65,
-          "numeroSueldos": 5
-        },
-        {
-          "cobertura": 13443,
-          "descripcionCobertura": "Trasplante de órganos",
-          "principal": "N",
-          "observacionCobertura": "Trasplante de órganos",
+          "observacionCobertura": "Indemnización por gastos de sepelio",
           "condicion": "OBL",
           "indSeleccionar": "S",
           "edadMinima": 18,
@@ -125,10 +65,10 @@
           "numeroSueldos": 5
         },
         {
-          "cobertura": 116069,
-          "descripcionCobertura": "Gastos Sepelio",
+          "cobertura": 12589,
+          "descripcionCobertura": "Incapacidad Temporal",
           "principal": "N",
-          "observacionCobertura": "Indemnización por gastos de sepelio",
+          "observacionCobertura": "Incapacidad Temporal para el Trabajo por Accidente",
           "condicion": "OBL",
           "indSeleccionar": "S",
           "edadMinima": 18,
@@ -191,7 +131,29 @@
     "producto": "VIDALEY",
     "moneda": "PEN",
     "planes": [
-      534273
+      534272
+    ],
+    "datosParticulares": [
+      {
+        "valor": "1",
+        "etiqueta": "NUMERO_DE_TRABAJADORES",
+        "codigo": ""
+      },
+      {
+        "valor": "S",
+        "etiqueta": "INDICADOR_EDAD_TRABAJADORES",
+        "codigo": ""
+      },
+      {
+        "valor": "3800.0",
+        "etiqueta": "PLANILLA_BRUTA_MENSUAL",
+        "codigo": ""
+      },
+      {
+        "valor": "10000",
+        "etiqueta": "SUMA_ASEGURADA",
+        "codigo": ""
+      }
     ]
   }
 }
