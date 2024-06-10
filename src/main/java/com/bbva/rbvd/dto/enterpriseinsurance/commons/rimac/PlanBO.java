@@ -19,8 +19,11 @@ public class PlanBO extends CommonsBO{
     private List<AssistanceBO> asistencias;
     private String moneda;
     private BigDecimal montoIGV;
+    private List<TaxBO> tasas;
     private BigDecimal tasa;
     private BigDecimal remuneracionMaximaAsegurable;
+    private Long numeroEmpleados;
+    private BigDecimal sumaSueldoBruto;
 
 
     public Long getPlan() {
@@ -119,6 +122,30 @@ public class PlanBO extends CommonsBO{
         this.remuneracionMaximaAsegurable = remuneracionMaximaAsegurable;
     }
 
+    public List<TaxBO> getTasas() {
+        return tasas;
+    }
+
+    public void setTasas(List<TaxBO> tasas) {
+        this.tasas = tasas;
+    }
+
+    public Long getNumeroEmpleados() {
+        return numeroEmpleados;
+    }
+
+    public void setNumeroEmpleados(Long numeroEmpleados) {
+        this.numeroEmpleados = numeroEmpleados;
+    }
+
+    public BigDecimal getSumaSueldoBruto() {
+        return sumaSueldoBruto;
+    }
+
+    public void setSumaSueldoBruto(BigDecimal sumaSueldoBruto) {
+        this.sumaSueldoBruto = sumaSueldoBruto;
+    }
+
     @Override
     public String toString() {
         return "PlanBO{" +
@@ -132,9 +159,11 @@ public class PlanBO extends CommonsBO{
                 ", asistencias=" + asistencias +
                 ", moneda='" + moneda + '\'' +
                 ", montoIGV=" + montoIGV +
+                ", tasas=" + tasas +
                 ", tasa=" + tasa +
                 ", remuneracionMaximaAsegurable=" + remuneracionMaximaAsegurable +
+                ", numeroEmpleados=" + numeroEmpleados +
+                ", sumaSueldoBruto=" + sumaSueldoBruto +
                 '}';
     }
-
 }
