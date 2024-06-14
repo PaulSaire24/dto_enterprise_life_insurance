@@ -10,7 +10,9 @@ public class PlanDTO extends  CommonFieldsDTO{
     private List<DescriptionDTO> exclusions;
     private List<DescriptionDTO> benefits;
     private RateDTO rates;
-
+    private AmountDTO maximumSalaryAmount;
+    private List<TaxesDTO> taxes;
+    private AmountDTO totalInstallmentWithoutTax;
 
     public AmountDTO getTotalInstallment() {
         return totalInstallment;
@@ -60,19 +62,42 @@ public class PlanDTO extends  CommonFieldsDTO{
         this.rates = rates;
     }
 
+    public AmountDTO getMaximumSalaryAmount() {
+        return maximumSalaryAmount;
+    }
+
+    public void setMaximumSalaryAmount(AmountDTO maximumSalaryAmount) {
+        this.maximumSalaryAmount = maximumSalaryAmount;
+    }
+
+    public List<TaxesDTO> getTaxes() {
+        return taxes;
+    }
+
+    public void setTaxes(List<TaxesDTO> taxes) {
+        this.taxes = taxes;
+    }
+
+    public AmountDTO getTotalInstallmentWithoutTax() {
+        return totalInstallmentWithoutTax;
+    }
+
+    public void setTotalInstallmentWithoutTax(AmountDTO totalInstallmentWithoutTax) {
+        this.totalInstallmentWithoutTax = totalInstallmentWithoutTax;
+    }
+
     @Override
     public String toString() {
         return "PlanDTO{" +
-                "id='" + this.getId()+ + '\''+
-                ", name='" + this.getName()+ '\''+
-                ", isSelected=" + getIsSelected() +
-                ", isRecommended=" + getIsRecommended() +
-                ", totalInstallment=" + totalInstallment +
+                "totalInstallment=" + totalInstallment +
                 ", installmentPlans=" + installmentPlans +
                 ", coverages=" + coverages +
                 ", exclusions=" + exclusions +
                 ", benefits=" + benefits +
                 ", rates=" + rates +
+                ", maximumSalaryAmount=" + maximumSalaryAmount +
+                ", taxes=" + taxes +
+                ", totalInstallmentWithoutTax=" + totalInstallmentWithoutTax +
                 '}';
     }
 }

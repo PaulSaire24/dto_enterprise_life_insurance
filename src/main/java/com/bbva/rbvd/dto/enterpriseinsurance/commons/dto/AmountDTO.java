@@ -1,11 +1,14 @@
 package com.bbva.rbvd.dto.enterpriseinsurance.commons.dto;
 
+
+import org.codehaus.jackson.annotate.JsonIgnoreProperties;
+
 import java.io.Serializable;
 
+@JsonIgnoreProperties(ignoreUnknown = true)
 public class AmountDTO implements Serializable {
 
     private static final long serialVersionUID = 1L;
-
     private Double amount;
     private String currency;
     private DescriptionDTO period;
